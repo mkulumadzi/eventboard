@@ -3,6 +3,17 @@ require 'test_helper'
 
 RSpec.configure do |config|
 
+  #
+  # Set custom environment variables
+  #
+  config.around(:each) do |example|
+    ClimateControl.modify(
+      MEETUP_API_TOKEN: 'abc'
+    ) do
+      example.run
+    end
+  end
+
   config.before(:all) do
     # Prevent external connections
     WebMock.disable_net_connect!(allow_localhost: true)

@@ -7,7 +7,7 @@ class ApiClient
 
   attr_reader :base_uri
 
-  def initialize( base_uri )
+  def initialize( base_uri = nil )
     @base_uri = base_uri
     connection # Build connection and validate that the base_uri is set correctly
   end
