@@ -1,5 +1,6 @@
 require 'webmock/rspec'
 require 'test_helper'
+require 'climate_control'
 
 RSpec.configure do |config|
 
@@ -8,7 +9,8 @@ RSpec.configure do |config|
   #
   config.around(:each) do |example|
     ClimateControl.modify(
-      MEETUP_API_TOKEN: 'abc'
+      MEETUP_API_TOKEN: 'abc',
+      GOOGLE_API_TOKEN: 'def'
     ) do
       example.run
     end

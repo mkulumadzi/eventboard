@@ -34,6 +34,10 @@ class ApiClient
     base_uri || raise(ConfigError.new("Missing base_uri.") )
   end
 
+  def query_string( query )
+    query.map{ |k,v| "#{k}=#{v}" }.join('&')
+  end
+
   def connection
     @connection ||= Faraday.new do |f|
       f.request :json

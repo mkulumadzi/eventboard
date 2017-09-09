@@ -1,0 +1,9 @@
+<div class="container-flud">
+
+  <ol class="events">
+    <% @events.each do |e| %>
+      <%= render 'events/event', locals: { event: e } %>
+    <% end %>
+  </ol>
+
+</div>

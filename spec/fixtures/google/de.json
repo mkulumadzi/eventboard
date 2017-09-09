@@ -1,0 +1,226 @@
+{
+  "predictions": [
+    {
+      "description": "Denver, CO, United States",
+      "id": "464b513e4fd9a3c7c3bd63d091ecc856aff12e2c",
+      "matched_substrings": [
+        {
+          "length": 2,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJzxcfI6qAa4cR1jaKJ_j0jhE",
+      "reference": "CkQxAAAAckDgWUYvVC_koFg2q3gdL2qcVU7YMbvQuuWEtFye0IzBn3W_TFidR1dX0rKQpoEnAO3pHYtZk7CS6H-6eV8exxIQt61YKxEy5cJuEot1SE_gbBoUVQCKlqGKSrak3fn4gl0YCdiTmgA",
+      "structured_formatting": {
+        "main_text": "Denver",
+        "main_text_matched_substrings": [
+          {
+            "length": 2,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "CO, United States"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Denver"
+        },
+        {
+          "offset": 8,
+          "value": "CO"
+        },
+        {
+          "offset": 12,
+          "value": "United States"
+        }
+      ],
+      "types": [
+        "locality",
+        "political",
+        "geocode"
+      ]
+    },
+    {
+      "description": "Denver Museum of Nature & Science, Colorado Boulevard, Denver, CO, United States",
+      "id": "936354f2d61826baa4f9b753f9108ce41b5213e0",
+      "matched_substrings": [
+        {
+          "length": 2,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJI3SnU1F5bIcREWJ08vMIP80",
+      "reference": "CmRfAAAAsNKz85EbsenngvtpJCPhtTHbyJtXQ3jRPFHm23VkHuAHA4ugqqlhVM63HF9PxJgfllbui33Cd4ryVIEeen9KiLcZj93BeLJ9eOCx83eABh6R_xDKkq0rWTeytw6WufbPEhDbp2B_f0R68d11-i1Q855tGhSnMbWP7zTCU1NTb-sRKdOmQSVfjw",
+      "structured_formatting": {
+        "main_text": "Denver Museum of Nature & Science",
+        "main_text_matched_substrings": [
+          {
+            "length": 2,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Colorado Boulevard, Denver, CO, United States"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Denver Museum of Nature & Science"
+        },
+        {
+          "offset": 35,
+          "value": "Colorado Boulevard"
+        },
+        {
+          "offset": 55,
+          "value": "Denver"
+        },
+        {
+          "offset": 63,
+          "value": "CO"
+        },
+        {
+          "offset": 67,
+          "value": "United States"
+        }
+      ],
+      "types": [
+        "establishment"
+      ]
+    },
+    {
+      "description": "Denver Zoo, Denver, CO, United States",
+      "id": "8ddc0135dffe87aafaf73e8075a3d274bd6984ec",
+      "matched_substrings": [
+        {
+          "length": 2,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJcY8lIE55bIcRKWyHPdIO_VM",
+      "reference": "CkQzAAAAt5fKZQK-WXi4roE4VkKglH1Lxw4NK7B-L_3fcnmQg4M33SSD7eqjcNgQDJGO33_DVqdw4okxco3sI67CpknaNxIQY_mWJJwt7uIzYfdpsi3BmRoUrvHRJWwSaAQaeRi7l8DPCP6NiCs",
+      "structured_formatting": {
+        "main_text": "Denver Zoo",
+        "main_text_matched_substrings": [
+          {
+            "length": 2,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Denver, CO, United States"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Denver Zoo"
+        },
+        {
+          "offset": 12,
+          "value": "Denver"
+        },
+        {
+          "offset": 20,
+          "value": "CO"
+        },
+        {
+          "offset": 24,
+          "value": "United States"
+        }
+      ],
+      "types": [
+        "establishment"
+      ]
+    },
+    {
+      "description": "Denver Biscuit Company, Denver, CO, United States",
+      "id": "0a37fb3cbb9bbebc5de9efd8901b27de64abe9fc",
+      "matched_substrings": [
+        {
+          "length": 2,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJB8H2oa1-bIcR0v0lKsQugFw",
+      "reference": "CkQ_AAAAdGHzZzJKvIBrjzLAJ_2iju9HzWhowlKu5_jYL1GEsxLb87SbVKgNd9suvkzbwL9KAL02UjDJ08UBIgP6RBmZVBIQ1-JQtqLlHzFXg4GxVUWFRBoUAmKfyJqX9x6IC4aBgwuPSw7NLP8",
+      "structured_formatting": {
+        "main_text": "Denver Biscuit Company",
+        "main_text_matched_substrings": [
+          {
+            "length": 2,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Denver, CO, United States"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Denver Biscuit Company"
+        },
+        {
+          "offset": 24,
+          "value": "Denver"
+        },
+        {
+          "offset": 32,
+          "value": "CO"
+        },
+        {
+          "offset": 36,
+          "value": "United States"
+        }
+      ],
+      "types": [
+        "establishment"
+      ]
+    },
+    {
+      "description": "Denver Botanic Gardens, York Street, Denver, CO, United States",
+      "id": "27c5128df6a9a92604683c6ac7986a68043dc5b8",
+      "matched_substrings": [
+        {
+          "length": 2,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJ14cW_Ld-bIcRlAMkBe6SCV0",
+      "reference": "ClRMAAAAd1MHFQErltzEHt3npZfqtyPnO0owylxJGCbeOQWYVwhFGanK1ndmKiRYW0H8zuGbW22-vTPbgbBhQReQ3q314fz-dIJRUap_9ulrbjaT5WgSECpSIob27r-9iLsF2W8e_V4aFB7UMMDi6LRwJupkfWiOXV6CgaEZ",
+      "structured_formatting": {
+        "main_text": "Denver Botanic Gardens",
+        "main_text_matched_substrings": [
+          {
+            "length": 2,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "York Street, Denver, CO, United States"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Denver Botanic Gardens"
+        },
+        {
+          "offset": 24,
+          "value": "York Street"
+        },
+        {
+          "offset": 37,
+          "value": "Denver"
+        },
+        {
+          "offset": 45,
+          "value": "CO"
+        },
+        {
+          "offset": 49,
+          "value": "United States"
+        }
+      ],
+      "types": [
+        "establishment"
+      ]
+    }
+  ],
+  "status": "OK"
+}

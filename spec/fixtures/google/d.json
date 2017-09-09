@@ -1,0 +1,220 @@
+{
+  "predictions": [
+    {
+      "description": "Denver, CO, United States",
+      "id": "464b513e4fd9a3c7c3bd63d091ecc856aff12e2c",
+      "matched_substrings": [
+        {
+          "length": 1,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJzxcfI6qAa4cR1jaKJ_j0jhE",
+      "reference": "CkQxAAAAZL8x-JEHBPbe28fW4HeAiBq3g5P4ebeQkRdmpRlP6g38BC4gWWL-OOn42gL5ZKUwb7TjVwTRKRGYshV0AVmsCxIQThTu00RUQEILiprjgWk48hoU6AQp71JfdrNmMX_Z6gdYcZGgbYM",
+      "structured_formatting": {
+        "main_text": "Denver",
+        "main_text_matched_substrings": [
+          {
+            "length": 1,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "CO, United States"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Denver"
+        },
+        {
+          "offset": 8,
+          "value": "CO"
+        },
+        {
+          "offset": 12,
+          "value": "United States"
+        }
+      ],
+      "types": [
+        "locality",
+        "political",
+        "geocode"
+      ]
+    },
+    {
+      "description": "Denver Museum of Nature & Science, Colorado Boulevard, Denver, CO, United States",
+      "id": "936354f2d61826baa4f9b753f9108ce41b5213e0",
+      "matched_substrings": [
+        {
+          "length": 1,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJI3SnU1F5bIcREWJ08vMIP80",
+      "reference": "CmRfAAAA9dtY4jtdDuCNWWHmm71AcR8KsDbLT_cZLYS0RWTDqtr1wILk9ACrBTAAXLXu8ksM7jSZuJzlX_iHQxjN-qjW5kvnopOx3CpzMnYm9Y1qlkMDiUE3KF1DoTuUnI3ZR_KCEhCT6kTJICQ2t5KRIoaGstJzGhRM69Wgdl6Q7b9T1tqc_-690ns6TQ",
+      "structured_formatting": {
+        "main_text": "Denver Museum of Nature & Science",
+        "main_text_matched_substrings": [
+          {
+            "length": 1,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Colorado Boulevard, Denver, CO, United States"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Denver Museum of Nature & Science"
+        },
+        {
+          "offset": 35,
+          "value": "Colorado Boulevard"
+        },
+        {
+          "offset": 55,
+          "value": "Denver"
+        },
+        {
+          "offset": 63,
+          "value": "CO"
+        },
+        {
+          "offset": 67,
+          "value": "United States"
+        }
+      ],
+      "types": [
+        "establishment"
+      ]
+    },
+    {
+      "description": "Denver Zoo, Denver, CO, United States",
+      "id": "8ddc0135dffe87aafaf73e8075a3d274bd6984ec",
+      "matched_substrings": [
+        {
+          "length": 1,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJcY8lIE55bIcRKWyHPdIO_VM",
+      "reference": "CkQzAAAAQQCb5M9wg7h3C4pG_3xEptubmzq0hSW3VWGpC5c_33Y5LLEUGEqE9YN6fCjn4g-pFzEkZqqxAHPPngBcFWILCBIQCfim8pGMn-L25rUVPcITlxoUpGt1gh3tmPU23CaXVZ-HL5dMjsk",
+      "structured_formatting": {
+        "main_text": "Denver Zoo",
+        "main_text_matched_substrings": [
+          {
+            "length": 1,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Denver, CO, United States"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Denver Zoo"
+        },
+        {
+          "offset": 12,
+          "value": "Denver"
+        },
+        {
+          "offset": 20,
+          "value": "CO"
+        },
+        {
+          "offset": 24,
+          "value": "United States"
+        }
+      ],
+      "types": [
+        "establishment"
+      ]
+    },
+    {
+      "description": "Denver County, CO, United States",
+      "id": "a440cb72ab2518d101b2f9dca068813f86bd7143",
+      "matched_substrings": [
+        {
+          "length": 1,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJzWww5uJfbIcRBvfuO6cAtKY",
+      "reference": "CkQ4AAAAANDJoOhGUBwBgaZDmAuNgvbZEW0CZACKXmxdDNCEqsbAZy_QleWbtbz1cObj1PV57X0q2G8QVihIrOJp2M0qKxIQiTitWvTnHB4L3UlRp1jtcxoU_bl4nhfJwwxrVNbvkTuxXuXM9BM",
+      "structured_formatting": {
+        "main_text": "Denver County",
+        "main_text_matched_substrings": [
+          {
+            "length": 1,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "CO, United States"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Denver County"
+        },
+        {
+          "offset": 15,
+          "value": "CO"
+        },
+        {
+          "offset": 19,
+          "value": "United States"
+        }
+      ],
+      "types": [
+        "administrative_area_level_2",
+        "political",
+        "geocode"
+      ]
+    },
+    {
+      "description": "Denver Biscuit Company, Denver, CO, United States",
+      "id": "0a37fb3cbb9bbebc5de9efd8901b27de64abe9fc",
+      "matched_substrings": [
+        {
+          "length": 1,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJB8H2oa1-bIcR0v0lKsQugFw",
+      "reference": "CkQ_AAAAex9GDvLgJUXAh73SnetanM1iYqTo--N6oSzjz3XEWTLT-2J0cODmwqtSPwYo2a0tCZXKf4ba3atp9G9jlK7M0BIQ6rZ08HTVOsChe_3JnLEZQxoUXmDr3X-fcGIKzLv2XsbNaxYOOwo",
+      "structured_formatting": {
+        "main_text": "Denver Biscuit Company",
+        "main_text_matched_substrings": [
+          {
+            "length": 1,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Denver, CO, United States"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Denver Biscuit Company"
+        },
+        {
+          "offset": 24,
+          "value": "Denver"
+        },
+        {
+          "offset": 32,
+          "value": "CO"
+        },
+        {
+          "offset": 36,
+          "value": "United States"
+        }
+      ],
+      "types": [
+        "establishment"
+      ]
+    }
+  ],
+  "status": "OK"
+}

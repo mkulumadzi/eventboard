@@ -1,0 +1,153 @@
+{
+  "html_attributions": [],
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Denver",
+        "short_name": "Denver",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Denver County",
+        "short_name": "Denver County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Colorado",
+        "short_name": "CO",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "adr_address": "<span class=\"locality\">Denver</span>, <span class=\"region\">CO</span>, <span class=\"country-name\">USA</span>",
+    "formatted_address": "Denver, CO, USA",
+    "geometry": {
+      "location": {
+        "lat": 39.7392358,
+        "lng": -104.990251
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 39.91424689999999,
+          "lng": -104.6002959
+        },
+        "southwest": {
+          "lat": 39.614431,
+          "lng": -105.109927
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+    "id": "464b513e4fd9a3c7c3bd63d091ecc856aff12e2c",
+    "name": "Denver",
+    "photos": [
+      {
+        "height": 2988,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105149935661245530260/photos\">Di Ge</a>"
+        ],
+        "photo_reference": "CmRaAAAARaHaJtiqIq32OaDYz-YesrfWzy7sqVZaIp9sCi3zYjmi09KAZVyd9ziqyCzRqjFiKxCDpnKHPoldyhRiOowBDstJEuBIm51Lws3A47A0gauqanoEASBx54qCzN7e6zolEhBN1yJaGgIUTKILl8E3jUDXGhSK4n8WEtbHa6jjYE8PCnc4Hfglhw",
+        "width": 5312
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117711220499010239186/photos\">Tina Pino</a>"
+        ],
+        "photo_reference": "CmRaAAAAkC-N_NPO0BRKFk7VVFw34tjWs_m7aQ4SPWsyD0JxKJGnwc2um07yn8tquvWK7XHUe70KiqhiaxeFScp8mrcvc6pz27ASoWohms7DDNTvpfqzUrMg0gBn9Kirx5iCi2SAEhDF0L2_gvb4kRRCjZt_fK0MGhQjOa97gIMAnTaHeiTkiqEXKQb08A",
+        "width": 2048
+      },
+      {
+        "height": 1836,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113624030650981376412/photos\">Violetta Stone</a>"
+        ],
+        "photo_reference": "CmRaAAAAk0_EHBahdaqh0Gj_hyeM7IBCADQm0rFS7wQborVlKB035KvqIOgBC48nUk68QmtMrBIQtNJ2gdB97yUrBhYVTwgwQiHHtAdbwb9DfcV82bQ2yEry89YeMCnlPyn9kWbSEhA_22EPew-XDXRrxlG8aWrrGhS8KmRYFRLURJa3q5G0s6R63MMOQQ",
+        "width": 3264
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110441640603734149754/photos\">Dave Goffredo</a>"
+        ],
+        "photo_reference": "CmRaAAAAcowIapQoNT7QU6Bas-TD8cdazkHP9A-tzh2Cx_4bDj8b3tjhlV_oAFX4F9FGpQvaUX8rfStxW4RZqTmAju0gL75SLOFWubbdBYTqGe8tIZhhbt5oFIPwFIW3RaZ5xuYsEhB1hQAjWf0Xns7T1Jm55LBYGhQPEshZmWZgQnozjb5AyOZ7YLz7bg",
+        "width": 4160
+      },
+      {
+        "height": 1488,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107267535181703087621/photos\">Greg Tokarski</a>"
+        ],
+        "photo_reference": "CmRZAAAA6cNEeWDgCT_HQZ35UOmYh3ZDy-VNuce8HtlU-e-Wz2FeYR956sgd7louIA1FwpbECzqyzyoIFz10egdyu1Dw7AWI6yfOIbcdlB4MaoYw8UAHDiuh9sRWTCQ0TzFw8WhtEhAUHMUDtuM4gpidqVgFncNkGhRHjWzWgsMoUrVwcA7BERLd7jGzLA",
+        "width": 2645
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104578138117239224981/photos\">Greg Jacobs</a>"
+        ],
+        "photo_reference": "CmRaAAAAKkfQLy2wLj9Wl4rJHx1FO6nLof8D-2bxiWaiIEjf1UJKEReWPVrdJqu3EkLLRDoMdIVDFkmUbagO0diY9zFRfLt9mnG9LDC0-fmfj4EfSz6d32fg-Svo0B6npDA8XlISEhAoxcoI0DG4gWZf_uLp1_cTGhQ6cFrTYLAmr9gs_4hCly8SxwCWSA",
+        "width": 2048
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108636040431369806979/photos\">Creation Co.</a>"
+        ],
+        "photo_reference": "CmRaAAAAfjsR2caDsMHIRbMw7Y77GotRUeoqrb6DovLMO65g1n_gxRprtPIaQabvrV5AXSic9jxc8DFKDbuDcxp4uLE1p8m3PfD7Nz_7E7ZjetR_RxRmLgI3VfBFV5fUjZyF6gKREhDHWu747wVrwv5X5ljUGHLUGhS8K5j_62LeAuppiHsG4o-YWBJKjg",
+        "width": 4032
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110441640603734149754/photos\">Dave Goffredo</a>"
+        ],
+        "photo_reference": "CmRaAAAA4uzDSPz_G0EJ3H4m2BA7qp6T4575NgdgeBum5Mw5rbE5yRz8jLVM1OnDTrmWq_V2LdMQT4uLLHYbxCUGRHZmvIcAhZkpG6znuivxaS0tNoP23Dh-uQICRW1FSfoKWClmEhAYmDC4AN8AoWAIOBt18SJqGhT1sWwaWkAFQvHaoAhhNatMlsi_Gw",
+        "width": 4160
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117711220499010239186/photos\">Tina Pino</a>"
+        ],
+        "photo_reference": "CmRaAAAAecBv2kIKM8A23wMhFu3TFcFAY0iQjgbuVsQzcjU0EAkeAO8AeL03L1NK9a26_fO2_lj3bvgZqLf4MNmfo8fJzofjQEyli3g5vdNcnVxruJOURPfAahNQucVdDr20hhcUEhCA5mLMjmLeW7gL_v_zrsYuGhRNY2_Zgs69VUCqKcV6z1Av4lfyBA",
+        "width": 2048
+      },
+      {
+        "height": 2865,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110138466085086947383/photos\">Paul Meijer</a>"
+        ],
+        "photo_reference": "CmRaAAAAcfUd9EytOQ2QJUKVXDcmPz1XaO7Vc5d4U7-nE9DWhSyW1uUd_zg2N4AJxaxr3co5o8jseI5QzEJWlNBFTtcxF3gXMrw9HwsYzGZMzFA_2w3NdMwn6D4WfU_LQQQj9lVNEhC5MqY7-zVQ92pI5IEv4xpvGhTHxQpC8sy6FbmtSSTsuY6v2fty2w",
+        "width": 3822
+      }
+    ],
+    "place_id": "ChIJzxcfI6qAa4cR1jaKJ_j0jhE",
+    "reference": "CmRbAAAAUlZ6IWKTKFfxXwDGQKURx7XHeDJi5X7wUCv9DM6V591w8xxLAuD9dejp6rOPt2AdOyLjfvgj04sncrxsz-fInCpdwUFfWcOYFby_EZ2DtWbszLdCHwnWsxoQRHR840g6EhCgYmOGbWqVQlHypBS-qufrGhSZ3BxyXG8_XMiGCyuW7Lq_wvPNww",
+    "scope": "GOOGLE",
+    "types": [
+      "locality",
+      "political"
+    ],
+    "url": "https://maps.google.com/?q=Denver,+CO,+USA&ftid=0x876b80aa231f17cf:0x118ef4f8278a36d6",
+    "utc_offset": -360,
+    "vicinity": "Denver"
+  },
+  "status": "OK"
+}
