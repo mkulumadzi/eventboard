@@ -1,31 +1,28 @@
 <div class="container-fluid">
-
   <%= render 'search/search_form' %>
   <%= render 'search/search_input' %>
   <%= render 'events/details_modal' %>
-
-  <div class="events container">
-    <% @events.each_slice(3) do |events| %>
-      <div class="row">
-        <% events.each do |e| %>
-          <%= render 'events/event', locals: { event: e } %>
-        <% end %>
-      </div>
-    <% end if @events %>
+  <div class="row">
+    <div class="col-lg-6 col-sm-12">
+      <%= render 'search/results_map' %>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <%= render 'events/events_grid' %>
+    </div>
   </div>
 
 </div>
 
 <script type="text/javascript">
+
   // Start by hiding the searchForm
   $(document.getElementById('searchForm')).toggle();
 
-  $('#myModal').on('show.bs.modal', function(event) {
+  $('#eventDetailsModal').on('show.bs.modal', function(event) {
     var target = $(event.relatedTarget);
     var dataset = target.context.dataset;
     var modal = $(this);
     var json = JSON.parse(dataset.json);
-    console.log(json);
     modal.find('.modal-title').text(json.name);
     modal.find('#venueName').text(json.venue.name);
     modal.find('#eventTime').text(json.time);

@@ -1,10 +1,9 @@
-<div class="event-grid col-lg-4 col-sm-12">
+<div class="event-grid col-lg-6 col-sm-12">
   <% event = locals[:event] %>
-  <% group_id = event['group']['id'] %>
-  <% group_class = group_id % 5 %>
+  <% group_class =event['group']['id'] % 5 %>
   <% json = event.to_json %>
 
-  <div class="event <%="group_type_#{group_class}"%>" data-toggle="modal" data-target="#myModal" data-json="<%=json%>">
+  <div class="event <%="group_type_#{group_class}"%>" data-toggle="modal" data-target="#eventDetailsModal" data-json="<%=json%>">
     <div class="container">
       <div class="row">
         <h3><%= event['name']%></h3>
