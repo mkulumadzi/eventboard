@@ -1,7 +1,10 @@
 <div id="map"></div>
+<% json = @events.to_json %>
+
+<div id="mapMarkerStore" data-json="<%=json%>"></div>
 
 <script type="text/javascript">
-  var map;
+  var map = new google.maps.Map(document.getElementById('map'));
 
   function initMap() {
     var urlParams = new URLSearchParams(window.location.search);
@@ -21,11 +24,27 @@
     var lat_field = document.getElementById('lat');
     console.log(lat_field);
 
-
-
-    map = new google.maps.Map(document.getElementById('map'));
+    // map = new google.maps.Map(document.getElementById('map'));
     map.fitBounds( currentBounds );
   }
 
+  function addMarkers() {
+    var mapMarkerStore = document.getElementById('mapMarkerStore');
+    var events = JSON.parse(mapMarkerStore.dataset.json);
+
+    for(i=0; i < events.length; i++) {
+      var e = events[i];
+      console.log(e);
+      if ( e.venue ) {
+        var marker = new google.maps.Marker({
+          position: { lat: e.venue.lat, lng: e.venue.lon },
+          map: map,
+          title: e.name
+        });
+      }
+    }
+  }
+
   initMap();
+  addMarkers();
 </script>
