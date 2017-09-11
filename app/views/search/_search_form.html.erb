@@ -1,14 +1,21 @@
-<%= form_tag("/search", method: "get") do |f| %>
-  <div class="form-group row">
-    <div class="col-12">
-      <%= text_field_tag :q, "", class: "form-control", type: "search", placeholder: "Your location", id: "autocomplete"%>
-      <%= text_field_tag :lat, "", class: "form-control", id: "lat"%>
-      <%= text_field_tag :lng, "", class: "form-control", id: "lng"%>
-    </div>
+<div class="center jumbotron" id="searchForm">
+  <h1>Find events near you:</h1>
+
+  <div id="event-search">
+    <%= form_tag("/search", method: "get") do |f| %>
+      <div class="form-group row">
+        <div class="col-12">
+          <%= text_field_tag :q, "", class: "form-control", type: "search", placeholder: "Your location", id: "autocomplete"%>
+          <%= hidden_field_tag :lat, "", class: "form-control", id: "lat"%>
+          <%= hidden_field_tag :lng, "", class: "form-control", id: "lng"%>
+        </div>
+      </div>
+
+      <%= submit_tag "Search", class: "btn btn-primary" %>
+    <% end %>
   </div>
 
-  <%= submit_tag "Search", class: "btn btn-primary" %>
-<% end %>
+</div>
 
 <script type="text/javascript">
   var countryRestrict = {'country': 'us'};

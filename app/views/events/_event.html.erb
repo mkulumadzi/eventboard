@@ -4,6 +4,6 @@
     <%= event['name'] %>
   </span>
   <span class="description">
-    <%= event['description'] %>
+    <%= Nokogiri::HTML(event['description']).to_html %>
   </span>
 </li>

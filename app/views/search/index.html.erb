@@ -1,9 +1,16 @@
-<div class="container-flud">
+<div class="container-fluid">
+
+  <%= render 'search/search_form' %>
+  <%= render 'search/search_input' %>
 
   <ol class="events">
     <% @events.each do |e| %>
       <%= render 'events/event', locals: { event: e } %>
-    <% end %>
+    <% end if @events %>
   </ol>
 
 </div>
+
+<script type="text/javascript">
+  $(document.getElementById('searchForm')).toggle();
+</script>
