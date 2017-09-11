@@ -1,9 +1,24 @@
-<li id="event">
+<div class="event-grid col-lg-4 col-sm-12">
   <% event = locals[:event] %>
-  <span class="name">
-    <%= event['name'] %>
-  </span>
-  <span class="description">
-    <%= Nokogiri::HTML(event['description']).to_html %>
-  </span>
-</li>
+  <% group_id = event['group']['id'] %>
+  <% group_class = group_id % 5 %>
+  <% json = event.to_json %>
+
+  <div class="event <%="group_type_#{group_class}"%>" data-toggle="modal" data-target="#myModal" data-json="<%=json%>">
+    <div class="container">
+      <div class="row">
+        <h3><%= event['name']%></h3>
+      </div>
+      <div class="row">
+        <%= event['venue']['name'] if event['venue'] %>
+      </div>
+      <div class="row">
+        <%= event['time'] %>
+      </div>
+      <div class="row">
+        <%= event['group']['name'] if event['group'] %>
+      </div>
+    </div>
+  </div>
+
+</div>

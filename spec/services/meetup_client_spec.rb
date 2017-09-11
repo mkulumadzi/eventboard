@@ -34,6 +34,11 @@ describe MeetupClient do
       expect(events).to be_instance_of(Array)
     end
 
+    it 'serializes meetups' do
+      expect(subject).to receive(:serialize_meetups)
+      events
+    end
+
     it 'raises an error if invalid keys are included' do
       query[:some_other_key] = "some other value"
       expect{

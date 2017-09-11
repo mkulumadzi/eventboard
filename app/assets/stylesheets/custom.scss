@@ -1,3 +1,10 @@
+/* variables and mixins */
+$color-blue: #1BE7FF;
+$color-green: #6EEB83;
+$color-yellow: #E4FF1A;
+$color-orange: #E8AA14;
+$color-red: #FF5714;
+
 /* header */
 
 #logo {
@@ -13,4 +20,35 @@
     color: gray;
     text-decoration: none;
   }
+}
+
+.event-grid {
+  padding: 5px;
+}
+
+.event {
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  padding: 10px;
+}
+
+.group_type_1 {
+  background-color: $color-blue;
+}
+
+.group_type_2 {
+  background-color: $color-green;
+}
+
+.group_type_3 {
+  background-color: $color-yellow;
+}
+
+.group_type_4 {
+  background-color: $color-orange;
+}
+
+.group_type_0 {
+  background-color: $color-red;
 }

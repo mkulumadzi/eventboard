@@ -2,6 +2,8 @@ class MeetupClient < ApiClient
 
   BASE_URI = "https://api.meetup.com"
 
+  include MeetupSerializer
+
   def initialize
     api_token # Ensure we have the api token
     super
@@ -9,7 +11,9 @@ class MeetupClient < ApiClient
 
   def find_events( query )
     validate_find_events_query_string( query )
-    get("/find/events?#{key_params}&#{query_string(query)}")
+    serialize_meetups(
+      get("/find/events?#{key_params}&#{query_string(query)}")
+    )
   end
 
   private

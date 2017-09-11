@@ -2,15 +2,35 @@
 
   <%= render 'search/search_form' %>
   <%= render 'search/search_input' %>
+  <%= render 'events/details_modal' %>
 
-  <ol class="events">
-    <% @events.each do |e| %>
-      <%= render 'events/event', locals: { event: e } %>
+  <div class="events container">
+    <% @events.each_slice(3) do |events| %>
+      <div class="row">
+        <% events.each do |e| %>
+          <%= render 'events/event', locals: { event: e } %>
+        <% end %>
+      </div>
     <% end if @events %>
-  </ol>
+  </div>
 
 </div>
 
 <script type="text/javascript">
+  // Start by hiding the searchForm
   $(document.getElementById('searchForm')).toggle();
+
+  $('#myModal').on('show.bs.modal', function(event) {
+    var target = $(event.relatedTarget);
+    var dataset = target.context.dataset;
+    var modal = $(this);
+    var json = JSON.parse(dataset.json);
+    console.log(json);
+    modal.find('.modal-title').text(json.name);
+    modal.find('#venueName').text(json.venue.name);
+    modal.find('#eventTime').text(json.time);
+    modal.find('#groupName').text(json.group.name);
+    modal.find('#eventDescription').text(json.description);
+    modal.find('#moreInfo').attr("href", json.link);
+  })
 </script>
