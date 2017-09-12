@@ -64,8 +64,10 @@ class MeetupClient < ApiClient
   end
 
   def query_string( query )
-    query.except(:q)
+    query.except(:q, :time, :lat, :lng)
+      .merge(lat_lng_params(query))
       .merge(search_params(query))
+      .merge(time_params(query))
       .map{ |k,v| "#{k}=#{v}" }.join('&')
   end
 
@@ -75,8 +77,23 @@ class MeetupClient < ApiClient
     )
   end
 
+  def lat_lng_params( query )
+    { lat: query[:lat], lon: query[:lng] }
+  end
+
   def valid_find_events_keys
-    [ :lat, :lon, :q, :radius ]
+    [ :lat, :lng, :q, :radius, :time ]
+  end
+
+  def time_params( query )
+    if( query[:time] && !query[:time].blank? )
+      range = query[:time].split(" - ")
+        .map{ |d| Date.strptime(d, '%m/%d/%Y') }
+        .map{ |d| d.to_time.to_i * 1000 }.join(",")
+      { time: range }
+    else
+      { time: "0d,1d" }
+    end
   end
 
 end

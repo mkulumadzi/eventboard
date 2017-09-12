@@ -4,18 +4,26 @@
   <div id="event-search">
     <%= form_tag("/search", method: "get") do |f| %>
       <div class="form-group row">
-        <div class="col-12">
-          <%= text_field_tag :location, "", class: "form-control", type: "search", placeholder: "Your location", id: "autocomplete"%>
-          <%= text_field_tag :q, params[:q], class: "form-control", type: "text", placeholder: "Search term" %>
-
-          <%= hidden_field_tag :lat, "", class: "form-control", id: "lat"%>
-          <%= hidden_field_tag :lng, "", class: "form-control", id: "lng"%>
-
-          <%= hidden_field_tag :f_b_lat, "", class: "form-control", id: "f-b-lat"%>
-          <%= hidden_field_tag :f_f_lat, "", class: "form-control", id: "f-f-lat"%>
-          <%= hidden_field_tag :b_b_lng, "", class: "form-control", id: "b-b-lng"%>
-          <%= hidden_field_tag :b_f_lng, "", class: "form-control", id: "b-f-lng"%>
+        <div class="col-lg-4">
+          <%= text_field_tag :location, "", class: "form-control", type: "search", placeholder: "Denver, Colorado", id: "autocomplete", required: true%>
+          <label for="location">Location</label>
         </div>
+        <div class="col-lg-4">
+          <%= text_field_tag :q, params[:q], class: "form-control", type: "text", placeholder: "Foosball" %>
+          <label for="q">Search term (optional)</label>
+        </div>
+        <div class="col-lg-4">
+          <%= text_field_tag :time, "", class: "daterange", type: "text", placeholder: "mm/dd/yyyy - mm/dd/yyyy", id: "daterangepicker" %>
+          <label for="time">Dates (defaults to today)</label>
+        </div>
+
+        <%= hidden_field_tag :lat, "", class: "form-control", id: "lat"%>
+        <%= hidden_field_tag :lng, "", class: "form-control", id: "lng"%>
+
+        <%= hidden_field_tag :f_b_lat, "", class: "form-control", id: "f-b-lat"%>
+        <%= hidden_field_tag :f_f_lat, "", class: "form-control", id: "f-f-lat"%>
+        <%= hidden_field_tag :b_b_lng, "", class: "form-control", id: "b-b-lng"%>
+        <%= hidden_field_tag :b_f_lng, "", class: "form-control", id: "b-f-lng"%>
       </div>
 
       <%= submit_tag "Search", class: "btn btn-primary" %>
@@ -59,3 +67,22 @@
 </script>
 
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<%=ENV['GOOGLE_API_TOKEN']%>&libraries=places&callback=initAutocomplete"></script>
+
+<script type="text/javascript">
+
+  $('input[class="daterange"]').daterangepicker({
+      autoUpdateInput: false,
+      locale: {
+          cancelLabel: 'Clear'
+      },
+      minDate: moment()
+  });
+
+  $('input[class="daterange"]').on('apply.daterangepicker', function(ev, picker) {
+      $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+  });
+
+  $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+      $(this).val('');
+  });
+</script>

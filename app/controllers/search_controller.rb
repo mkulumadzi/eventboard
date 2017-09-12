@@ -12,7 +12,7 @@ class SearchController < ApplicationController
   end
 
   def find_events
-    meetup.find_events({ lon: params[:lng].to_f, lat: params[:lat].to_f, radius: search_radius, q: params[:q] } )
+    meetup.find_events({ lng: params[:lng].to_f, lat: params[:lat].to_f, radius: search_radius, q: params[:q], time: params[:time] } )
   end
 
   def search_radius

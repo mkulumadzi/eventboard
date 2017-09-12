@@ -39,7 +39,7 @@ describe MeetupClient do
 
   describe 'find events' do
 
-    let(:query) { { lon: -105.027464, lat: 39.752422 } }
+    let(:query) { { lng: -105.027464, lat: 39.752422 } }
 
     let(:events) { subject.find_events(query) }
 
@@ -63,7 +63,7 @@ describe MeetupClient do
       }.to raise_error(MeetupClient::BadRequest)
     end
 
-    describe 'search terms' do
+    describe 'search query' do
 
       before do
         @s = MeetupCategory.create!(name: "Sports")
@@ -92,6 +92,37 @@ describe MeetupClient do
         query.merge!({q: "sports and crafts"})
         expect(subject).to receive(:get) do |*args|
           expect(args[0]).to include("category=#{@s.id},#{@a.id}")
+        end.and_return(load_fixture('meetup/find_events'))
+
+        subject.find_events(query)
+      end
+
+    end
+
+    describe 'time params' do
+
+      it 'searches for events in the next 24 hours by default' do
+        expect(subject).to receive(:get) do |*args|
+          expect(args[0]).to include("time=0d,1d")
+        end.and_return(load_fixture('meetup/find_events'))
+
+        subject.find_events(query)
+      end
+
+      it 'searches for events in the next 24 hours if time is blank' do
+        query.merge!(time: "")
+        expect(subject).to receive(:get) do |*args|
+          expect(args[0]).to include("time=0d,1d")
+        end.and_return(load_fixture('meetup/find_events'))
+
+        subject.find_events(query)
+      end
+
+      it 'generates millisecond timestamps if a time range parameter is provided' do
+        query.merge!(time: "09/07/2017 - 09/20/2017")
+
+        expect(subject).to receive(:get) do |*args|
+          expect(args[0]).to include("time=1504764000000,1505887200000")
         end.and_return(load_fixture('meetup/find_events'))
 
         subject.find_events(query)

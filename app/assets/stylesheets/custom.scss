@@ -56,3 +56,17 @@ $color-red: #FF5714;
 #map {
   height: 400px;
 }
+
+// Hacking the same bootstrap form control styles; setting this element to be a form-control breaks the javascript stuff.
+#daterangepicker{
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  color: #495057;
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
