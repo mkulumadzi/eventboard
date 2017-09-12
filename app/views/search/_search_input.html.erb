@@ -1,14 +1,18 @@
-<div class="center jumbotron" id="searchInput">
+<div class="customForm" id="searchInput">
   <div class="row">
-    <div class="col-lg-10">
+    <div class="col-md-10">
+      <% time_string = params[:time].blank? ? "(today)" : params[:time] %>
+
+
       <% if( params[:q] && !params[:q].blank? ) %>
-        <h3><%="'#{params[:q]}'"%> events near <%= params[:location] %>
+        <h4><%="'#{params[:q]}'"%> events near <%= params[:location].split(',').first %></h4>
       <% else %>
-        <h3>Events near <%= params[:location] %></h3>
+        <h4>Events near <%= params[:location].split(',').first %></h4>
       <% end %>
+      <em><%=time_string%></em>
     </div>
-    <div class="col-lg-2">
-      <button type="button" class="btn" id="toggleSearch">Edit</button>
+    <div class="col-md-2">
+      <button type="button" class="btn btn-secondary" id="toggleSearch">Edit</button>
     </div>
   </div>
 </div>

@@ -1,5 +1,5 @@
-<div class="center jumbotron" id="searchForm">
-  <h1>Find events near you:</h1>
+<div class="customForm" id="searchForm">
+  <h4>Find events near you:</h4>
 
   <div id="event-search">
     <%= form_tag("/search", method: "get") do |f| %>
@@ -14,7 +14,7 @@
         </div>
         <div class="col-lg-4">
           <%= text_field_tag :time, "", class: "daterange", type: "text", placeholder: "mm/dd/yyyy - mm/dd/yyyy", id: "daterangepicker" %>
-          <label for="time">Dates (defaults to today)</label>
+          <label for="time">Date range (defaults to today)</label>
         </div>
 
         <%= hidden_field_tag :lat, "", class: "form-control", id: "lat"%>

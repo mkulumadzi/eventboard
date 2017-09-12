@@ -4,8 +4,29 @@ $color-green: #6EEB83;
 $color-yellow: #E4FF1A;
 $color-orange: #E8AA14;
 $color-red: #FF5714;
+$color-gray: #B5B5B5;
+$color-light-gray: #F8F8F8;
 
-/* header */
+body {
+  padding-top: 100px;
+}
+
+nav {
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+  border-bottom-color: $color-gray;
+}
+
+.customForm {
+  background-color: $color-light-gray;
+  padding: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: $color-gray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
 
 #logo {
   float: left;
@@ -29,28 +50,31 @@ $color-red: #FF5714;
 .event {
   border-color: black;
   border-style: solid;
-  border-width: thin;
+  border-width: medium;
+  background-color: $color-light-gray;
+  border-radius: 5px;
   padding: 10px;
+  text-align: left;
 }
 
 .group_type_1 {
-  background-color: $color-blue;
+  border-color: $color-blue;
 }
 
 .group_type_2 {
-  background-color: $color-green;
+  border-color: $color-green;
 }
 
 .group_type_3 {
-  background-color: $color-yellow;
+  border-color: $color-yellow;
 }
 
 .group_type_4 {
-  background-color: $color-orange;
+  border-color: $color-orange;
 }
 
 .group_type_0 {
-  background-color: $color-red;
+  border-color: $color-red;
 }
 
 #map {
