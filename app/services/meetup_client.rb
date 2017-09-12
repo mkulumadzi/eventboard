@@ -12,8 +12,12 @@ class MeetupClient < ApiClient
   def find_events( query )
     validate_find_events_query_string( query )
     serialize_meetups(
-      get("/find/events?#{key_params}&#{query_string(query)}")
+      get(find_events_query(query))
     )
+  end
+
+  def categories
+    get("/2/categories?#{key_params}")['results']
   end
 
   private
@@ -29,12 +33,40 @@ class MeetupClient < ApiClient
     @api_token ||= ENV['MEETUP_API_TOKEN'] || raise(ConfigError.new("Missing MEETUP_API_TOKEN environment variable") )
   end
 
-  def query_string( query )
-    query.map{ |k,v| "#{k}=#{v}" }.join('&')
+  def find_events_query( query )
+    "/2/open_events?#{default_find_params}&#{query_string(query)}"
+  end
+
+  def default_find_params
+    "#{key_params}&text_format=plain"
   end
 
   def key_params
     "sign=true&key=#{api_token}"
+  end
+
+  def search_params( query )
+    if (query[:q])
+      ids = category_ids( query )
+      if( ids.count > 0 )
+        { category: ids.join(',') }
+      else
+        { text: query[:q] }
+      end
+    else
+      {}
+    end
+  end
+
+  def category_ids( query )
+    MeetupCategory.categories_like( query[:q] )
+      .map{ |c| c.id }
+  end
+
+  def query_string( query )
+    query.except(:q)
+      .merge(search_params(query))
+      .map{ |k,v| "#{k}=#{v}" }.join('&')
   end
 
   def validate_find_events_query_string( query )
@@ -44,7 +76,7 @@ class MeetupClient < ApiClient
   end
 
   def valid_find_events_keys
-    [ :lat, :lon, :text, :radius ]
+    [ :lat, :lon, :q, :radius ]
   end
 
 end

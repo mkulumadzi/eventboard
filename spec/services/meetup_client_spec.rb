@@ -4,8 +4,6 @@ describe MeetupClient do
 
   describe 'initialize' do
 
-    subject { MeetupClient.new }
-
     it 'loads the default base_uri' do
       expect(subject.base_uri).to eq("https://api.meetup.com")
     end
@@ -20,6 +18,25 @@ describe MeetupClient do
 
   end
 
+  describe 'categories' do
+
+    let(:categories) { subject.categories }
+
+    before do
+      stub_request(:get, %r{categories} ).to_return(body: read_fixture('meetup/categories'), status: 200, headers: json_headers )
+    end
+
+    it 'returns an array' do
+      expect(categories).to be_instance_of(Array)
+    end
+
+    it 'returns the details of each category as a hash' do
+      category = categories[0]
+      expect(category).to be_instance_of(Hash)
+    end
+
+  end
+
   describe 'find events' do
 
     let(:query) { { lon: -105.027464, lat: 39.752422 } }
@@ -27,7 +44,7 @@ describe MeetupClient do
     let(:events) { subject.find_events(query) }
 
     before do
-      stub_request(:get, %r{find/events} ).to_return(body: read_fixture('meetup/find_events'), status: 200, headers: json_headers )
+      stub_request(:get, %r{open_events} ).to_return(body: read_fixture('meetup/find_events'), status: 200, headers: json_headers )
     end
 
     it 'returns an array of nearby events' do
@@ -44,6 +61,42 @@ describe MeetupClient do
       expect{
         subject.find_events(query)
       }.to raise_error(MeetupClient::BadRequest)
+    end
+
+    describe 'search terms' do
+
+      before do
+        @s = MeetupCategory.create!(name: "Sports")
+        @a = MeetupCategory.create!(name: "Arts and Crafts")
+      end
+
+      it 'includes a text term if there is a search term and it does not match any categories' do
+        query.merge!({q: "Puppies"})
+        expect(subject).to receive(:get) do |*args|
+          expect(args[0]).to include("text=Puppies")
+        end.and_return(load_fixture('meetup/find_events'))
+
+        subject.find_events(query)
+      end
+
+      it 'includes category id if the search term matches a category' do
+        query.merge!({q: "sports"})
+        expect(subject).to receive(:get) do |*args|
+          expect(args[0]).to include("category=#{@s.id}")
+        end.and_return(load_fixture('meetup/find_events'))
+
+        subject.find_events(query)
+      end
+
+      it 'includes multiple category ids if the search term matches multiple categories' do
+        query.merge!({q: "sports and crafts"})
+        expect(subject).to receive(:get) do |*args|
+          expect(args[0]).to include("category=#{@s.id},#{@a.id}")
+        end.and_return(load_fixture('meetup/find_events'))
+
+        subject.find_events(query)
+      end
+
     end
 
   end

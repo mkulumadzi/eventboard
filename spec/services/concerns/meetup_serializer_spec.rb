@@ -14,11 +14,7 @@ describe MeetupSerializer do
     end
 
     it 'formats the time' do
-      expect(serialized[0]['time']).to eq("Fri, Sep 2017 at 11:00 am")
-    end
-
-    it 'removes html tags from the description' do
-      expect(serialized[0]['description']).to eq("This September Lipstick Tactical will be kicking off a series of lunch and learns. This month's topic is BARRIERS TO GOAL ATTAINMENT. We will discuss things that get in between us and our goals and how to navigate those barriers and distractions much like we have to do while on the range and staying focused on our targets!!")
+      expect(serialized[0]['time']).to eq("Tue, Sep 12 2017 at  6:30 pm")
     end
 
   end

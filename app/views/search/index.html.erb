@@ -29,9 +29,14 @@
       json = modal[0].json;
     }
     modal.find('.modal-title').text(json.name);
-    modal.find('#venueName').text(json.venue.name);
+    if( json.venue ) {
+      modal.find('#venueName').text(json.venue.name);
+    }
+    if( json.group ) {
+      modal.find('#groupName').text(json.group.name);
+    }
+
     modal.find('#eventTime').text(json.time);
-    modal.find('#groupName').text(json.group.name);
     modal.find('#eventDescription').text(json.description);
     modal.find('#moreInfo').attr("href", json.link);
   })

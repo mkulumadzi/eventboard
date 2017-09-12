@@ -5,7 +5,9 @@
     <%= form_tag("/search", method: "get") do |f| %>
       <div class="form-group row">
         <div class="col-12">
-          <%= text_field_tag :q, "", class: "form-control", type: "search", placeholder: "Your location", id: "autocomplete"%>
+          <%= text_field_tag :location, "", class: "form-control", type: "search", placeholder: "Your location", id: "autocomplete"%>
+          <%= text_field_tag :q, params[:q], class: "form-control", type: "text", placeholder: "Search term" %>
+
           <%= hidden_field_tag :lat, "", class: "form-control", id: "lat"%>
           <%= hidden_field_tag :lng, "", class: "form-control", id: "lng"%>
 
@@ -38,8 +40,11 @@
     autocomplete.addListener('place_changed', placeSelected);
   }
 
+  // Hackily sending both the lat and lng as well as the viewport... should simplify this.
+
   function placeSelected() {
     var place = autocomplete.getPlace();
+
     var viewport = place.geometry.viewport;
     var center_lat = (viewport.f.b + viewport.f.f) / 2;
     var center_lng = (viewport.b.b + viewport.b.f) / 2;

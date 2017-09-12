@@ -27,6 +27,8 @@ gem 'faraday'
 gem 'faraday_middleware'
 gem 'excon'
 
+gem 'haversine'
+
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
