@@ -34,15 +34,23 @@
 
     for(i=0; i < events.length; i++) {
       var e = events[i];
-      console.log(e);
       if ( e.venue ) {
         var marker = new google.maps.Marker({
           position: { lat: e.venue.lat, lng: e.venue.lon },
           map: map,
-          title: e.name
+          title: e.name,
+          json: e
+        });
+
+        marker.addListener('click', function() {
+          var json = this.json;
+          var modal = document.getElementById('eventDetailsModal');
+          modal.json = json;
+          $('#eventDetailsModal').modal('show');
         });
       }
     }
+
   }
 
   initMap();

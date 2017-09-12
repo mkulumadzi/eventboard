@@ -19,10 +19,15 @@
   $(document.getElementById('searchForm')).toggle();
 
   $('#eventDetailsModal').on('show.bs.modal', function(event) {
-    var target = $(event.relatedTarget);
-    var dataset = target.context.dataset;
     var modal = $(this);
-    var json = JSON.parse(dataset.json);
+    var target = $(event.relatedTarget);
+    var json;
+    if(target.context) { // Grid clicked
+      var dataset = target.context.dataset;
+      json = JSON.parse(dataset.json);
+    } else { // Marker clicked
+      json = modal[0].json;
+    }
     modal.find('.modal-title').text(json.name);
     modal.find('#venueName').text(json.venue.name);
     modal.find('#eventTime').text(json.time);
