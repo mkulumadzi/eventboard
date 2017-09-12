@@ -1,13 +1,13 @@
 <div class="center jumbotron" id="searchInput">
   <div class="row">
-    <div class="col-10">
+    <div class="col-lg-10">
       <% if( params[:q] && !params[:q].blank? ) %>
         <h3><%="'#{params[:q]}'"%> events near <%= params[:location] %>
       <% else %>
         <h3>Events near <%= params[:location] %></h3>
       <% end %>
     </div>
-    <div class="col-2">
+    <div class="col-lg-2">
       <button type="button" class="btn" id="toggleSearch">Edit</button>
     </div>
   </div>
