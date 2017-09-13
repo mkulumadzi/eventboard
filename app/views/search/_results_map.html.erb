@@ -20,6 +20,29 @@
   var mapBounds = new google.maps.LatLngBounds();
 
   var markers = []
+  var selectedMarker;
+
+  var iconBase = 'https://maps.google.com/mapfiles/kml/';
+  var icons = {
+    default: {
+      icon: {
+        url: iconBase + 'paddle/orange-blank.png',
+        size: new google.maps.Size(71, 71),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(17, 34),
+        scaledSize: new google.maps.Size(36, 36)
+      }
+    },
+    selected: {
+      icon: {
+        url: iconBase + 'paddle/red-circle.png',
+        size: new google.maps.Size(71, 71),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(17, 34),
+        scaledSize: new google.maps.Size(42, 42)
+      }
+    }
+  };
 
 
   function initMap() {
@@ -54,6 +77,7 @@
           position: { lat: e.venue.lat, lng: e.venue.lon },
           map: map,
           title: e.name,
+          icon: icons.default.icon,
           json: e
         });
 
@@ -73,7 +97,13 @@
     var id = "event-list-" + marker.json.id;
     $('.event-list').hide();
     $('#' + id).show();
+    if(selectedMarker) {
+      selectedMarker.setIcon(icons.default.icon);
+    }
+    marker.setIcon(icons.selected.icon);
+    // marker.icon = icons.selected.icon;
     map.panTo(marker.getPosition());
+    selectedMarker = marker;
   }
 
   initMap();
