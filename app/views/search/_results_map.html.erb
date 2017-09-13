@@ -50,14 +50,23 @@
     for(i=0; i < events.length; i++) {
       var e = events[i];
       if ( e.venue ) {
-        var marker = new google.maps.Marker({
+        var marker = new mapIcons.Marker({
           position: { lat: e.venue.lat, lng: e.venue.lon },
           map: map,
           title: e.name,
-          json: e
+          json: e,
+          icon: {
+            path: mapIcons.shapes.MAP_PIN,
+            fillColor: '#B5B5B5',
+        		fillOpacity: 1,
+        		strokeColor: '',
+        		strokeWeight: 0
+          },
+          map_icon_label: '<span class="map-icon map-icon-cafe"></span>'
         });
 
         markers.push(marker);
+        // marker.setZIndex(100 + i);
 
         marker.addListener('click', function() {
           selectMarker(this);
@@ -73,6 +82,16 @@
     var id = "event-list-" + marker.json.id;
     $('.event-list').hide();
     $('#' + id).show();
+
+    console.log(marker);
+
+    // marker.icon = {
+    //   path: mapIcons.shapes.MAP_PIN,
+    //   fillColor: '#E8AA14',
+    //   fillOpacity: 1,
+    //   strokeColor: '',
+    //   strokeWeight: 0
+    // }
     map.panTo(marker.getPosition());
   }
 

@@ -11,3 +11,8 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 
 Rails.application.config.assets.precompile += %w( custom.scss )
+
+Rails.application.config.assets.precompile += %w( map-icons-variables.scss )
+Rails.application.config.assets.precompile += %w( map-icons.css )
+
+Rails.application.config.assets.precompile += %w( map-icons.js )
