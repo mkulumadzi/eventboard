@@ -1,8 +1,8 @@
-<div class="customForm" id="searchForm">
+<div class="customForm container" id="searchForm">
   <h4>Find events near you:</h4>
   </br>
 
-  <div id="event-search">
+  <div class="col-12" id="event-search">
     <%= form_tag("/search", method: "get") do |f| %>
       <div class="form-group row">
         <div class="col-lg-4">
@@ -28,6 +28,8 @@
       </div>
 
       <%= submit_tag "Search", class: "btn btn-primary" %>
+
+      <button type="button" class="btn btn-secondary" id="cancelSearch">Cancel</button>
     <% end %>
   </div>
 
@@ -86,4 +88,15 @@
   $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
       $(this).val('');
   });
+</script>
+
+
+<!-- Need to refactor this - it duplicates the other toggle search button... -->
+<script type="text/javascript">
+
+  document.getElementById('cancelSearch').onclick = function() {
+    $(document.getElementById('searchForm')).toggle();
+    $(document.getElementById('searchInput')).toggle();
+  }
+
 </script>

@@ -1,7 +1,11 @@
-<div class="event-grid col-lg-6 col-sm-12">
-  <% event = locals[:event] %>
-  <% group_class =event['group']['id'] % 5 %>
-  <% json = event.to_json %>
+<% event = locals[:event] %>
+<% type = locals[:type] %>
+<% group_id = event['group']['id'] %>
+<% id = event['id'] %>
+<% group_class = group_id % 5 %>
+<% json = event.to_json %>
+
+<div class="event-widget <%="event-#{type}"%>" id="<%="event-#{type}-#{id}"%>">
 
   <button class="event <%="group_type_#{group_class}"%>" data-toggle="modal" data-target="#eventDetailsModal" data-json="<%=json%>">
     <div class="container">

@@ -1,10 +1,26 @@
-<div id="map"></div>
-<% json = @events.to_json %>
+<div id="mapView" class="container">
 
-<div id="mapMarkerStore" data-json="<%=json%>"></div>
+  <% json = @events.to_json %>
+
+  <div class="row">
+    <div id="map" class="col-md-8"></div>
+
+    <div class="col-md-4">
+      <%= render 'events/events_list' %>
+    </div>
+
+  </div>
+
+  <div id="mapMarkerStore" data-json="<%=json%>"></div>
+
+</div>
 
 <script type="text/javascript">
   var map = new google.maps.Map(document.getElementById('map'));
+  var mapBounds = new google.maps.LatLngBounds();
+
+  var markers = []
+
 
   function initMap() {
     var urlParams = new URLSearchParams(window.location.search);
@@ -16,16 +32,15 @@
     var boundA = new google.maps.LatLng(fBLat, bBLng);
     var boundB = new google.maps.LatLng(fFLat, bFLng);
 
-    var currentBounds = new google.maps.LatLngBounds(boundA, boundB);
+    currentBounds = new google.maps.LatLngBounds(boundA, boundB);
 
-    console.log(currentBounds);
+    mapBounds.extend(boundA);
+    mapBounds.extend(boundB);
 
     var lng = parseFloat(urlParams.get('lng'));
     var lat_field = document.getElementById('lat');
-    console.log(lat_field);
 
-    // map = new google.maps.Map(document.getElementById('map'));
-    map.fitBounds( currentBounds );
+    map.fitBounds( mapBounds );
   }
 
   function addMarkers() {
@@ -42,17 +57,26 @@
           json: e
         });
 
+        markers.push(marker);
+
         marker.addListener('click', function() {
-          var json = this.json;
-          var modal = document.getElementById('eventDetailsModal');
-          modal.json = json;
-          $('#eventDetailsModal').modal('show');
+          selectMarker(this);
         });
       }
     }
 
+    selectMarker(markers[0]);
+
+  }
+
+  function selectMarker(marker) {
+    var id = "event-list-" + marker.json.id;
+    $('.event-list').hide();
+    $('#' + id).show();
+    map.panTo(marker.getPosition());
   }
 
   initMap();
   addMarkers();
+
 </script>

@@ -1,8 +1,10 @@
-<div class="events container">
-  <% @events.each_slice(2) do |events| %>
+<div class="events container" id="eventsGrid">
+  <% @events.each_slice(3) do |events| %>
     <div class="row">
       <% events.each do |e| %>
-        <%= render 'events/event', locals: { event: e } %>
+        <div class="col-lg-4 col-sm-12">
+          <%= render 'events/event', locals: { event: e, type: 'grid' } %>
+        </div>
       <% end %>
     </div>
   <% end if @events %>

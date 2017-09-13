@@ -1,0 +1,5 @@
+<div class="events container" id="eventsList">
+  <% @events.each do |e| %>
+    <%= render 'events/event', locals: { event: e, type: 'list' } %>
+  <% end if @events %>
+</div>

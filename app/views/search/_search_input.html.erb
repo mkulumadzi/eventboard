@@ -1,20 +1,22 @@
-<div class="customForm" id="searchInput">
+<div class="customForm container" id="searchInput">
   <div class="row">
-    <div class="col-md-10">
-      <% time_string = params[:time].blank? ? "(today)" : params[:time] %>
-
+    <div class="col-12">
+      <% time_string = params[:time].blank? ? " - today" : "#{ params[:time]}"%>
 
       <% if( params[:q] && !params[:q].blank? ) %>
-        <h4><%="'#{params[:q]}'"%> events near <%= params[:location].split(',').first %></h4>
+        <h4><%="'#{params[:q]}'"%> events near <%= params[:location].split(',').first %><em><%=time_string%></em></h4>
       <% else %>
-        <h4>Events near <%= params[:location].split(',').first %></h4>
+        <h4>Events near <%= params[:location].split(',').first %><em><%=time_string%></em></h4>
       <% end %>
-      <em><%=time_string%></em>
-    </div>
-    <div class="col-md-2">
+
       <button type="button" class="btn btn-secondary" id="toggleSearch">Edit</button>
+
+      <button type="button" class="btn btn-secondary" id="toggleResults">Toggle View</button>
+
     </div>
+
   </div>
+
 </div>
 
 <script type="text/javascript">
@@ -22,6 +24,15 @@
   document.getElementById('toggleSearch').onclick = function() {
     $(document.getElementById('searchForm')).toggle();
     $(document.getElementById('searchInput')).toggle();
+  }
+
+  document.getElementById('toggleResults').onclick = function() {
+    $(document.getElementById('mapView')).toggle();
+    $(document.getElementById('eventsGrid')).toggle();
+
+    // The map and currentBounds should already be loaded from the initialization of the map...
+    google.maps.event.trigger(map,'resize');
+    map.fitBounds(mapBounds);
   }
 
 </script>

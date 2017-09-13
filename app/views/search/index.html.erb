@@ -2,21 +2,15 @@
   <%= render 'search/search_form' %>
   <%= render 'search/search_input' %>
   <%= render 'events/details_modal' %>
-  <div class="row">
-    <div class="col-lg-6 col-sm-12">
-      <%= render 'search/results_map' %>
-    </div>
-    <div class="col-lg-6 col-sm-12">
-      <%= render 'events/events_grid' %>
-    </div>
-  </div>
-
+  <%= render 'search/results_map' %>
+  <%= render 'events/events_grid' %>
 </div>
 
 <script type="text/javascript">
 
-  // Start by hiding the searchForm
+  // Start by hiding the searchForm and mapView
   $(document.getElementById('searchForm')).toggle();
+  $(document.getElementById('mapView')).toggle();
 
   $('#eventDetailsModal').on('show.bs.modal', function(event) {
     var modal = $(this);
