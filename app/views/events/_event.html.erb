@@ -7,7 +7,7 @@
 
 <div class="event-widget <%="event-#{type}"%>" id="<%="event-#{type}-#{id}"%>">
 
-  <button class="event <%="group_type_#{group_class}"%>" data-toggle="modal" data-target="#eventDetailsModal" data-json="<%=json%>">
+  <%= button_to event_path(event['group']['urlname'], event['id']), method: :get, class: "event group_type_#{group_class}" do %>
     <div class="container">
       <div class="row">
         <h5><%= event['name']%></h5>
@@ -22,6 +22,6 @@
         <%= event['group']['name'] if event['group'] %>
       </div>
     </div>
-  </button>
+  <% end %>
 
 </div>

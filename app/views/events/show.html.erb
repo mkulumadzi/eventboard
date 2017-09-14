@@ -1,24 +1,23 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <h3><%= @event['name']%></h3>
+      <div class="event_banner_background">
+        <div style="background-image: url(<%= @event['group']['group_photo']['highres_link'] if @event['group']['group_photo']%>)" class="event_banner_image">
+        </div>
+        <p class="event_banner_label"><%= @event['name']%></p>
+      </div>
     </div>
   </div>
-
-  <div class="row">
-    <div class="col">
-      <em><%= @event['time'] %></em>
+  <div class="row bottom_border">
+    <div class="col-md-10">
+      <p><em><%= @event['time'] %></em> at <strong><%= @event['venue']['name'] if @event['venue'] %></strong></p>
+      <p>Presented by: <%= @event['group']['name'] if @event['group'] %></p>
+    </div>
+    <div class="col-md-2">
+      <form action=<%=@event['link']%>>
+        <input type="submit" type="button" class="btn meetup_button" id="viewOnMeetup" value="View Meetup"/>
+      </form>
     </div>
   </div>
-  <div class="row">
-    <div class="col">
-      <strong><%= @event['venue']['name'] if @event['venue'] %></strong>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <%= @event['group']['name'] if @event['group'] %>
-      <%= @event['description'] %>
-    </div>
-  </div>
+  <p><%= @event['description'].html_safe if @event['description'] %></p>
 </div>

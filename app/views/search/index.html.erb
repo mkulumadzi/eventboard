@@ -22,6 +22,9 @@
     } else { // Marker clicked
       json = modal[0].json;
     }
+
+    console.log(json);
+
     modal.find('.modal-title').text(json.name);
     if( json.venue ) {
       modal.find('#venueName').text(json.venue.name);

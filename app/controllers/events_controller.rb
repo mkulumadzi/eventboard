@@ -1,13 +1,13 @@
 class EventsController < ApplicationController
 
   def show
-    @event = find_event
+    event
   end
 
   private
 
-  def find_event
-    meetup.event_with_group_details( params[:group_id], params[:event_id] )
+  def event
+    @event = meetup.event_with_group_details( params[:group_id], params[:event_id] )
   end
 
 end
