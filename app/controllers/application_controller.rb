@@ -7,4 +7,8 @@ class ApplicationController < ActionController::Base
     @events_service ||= EventsService.new
   end
 
+  def meetup
+    @meetup ||= MeetupClient.new
+  end
+
 end
