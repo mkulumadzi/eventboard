@@ -1,7 +1,6 @@
 <div class="container-fluid">
   <%= render 'search/search_form' %>
   <%= render 'search/search_input' %>
-  <%= render 'events/details_modal' %>
   <%= render 'search/results_map' %>
   <%= render 'events/events_grid' %>
 </div>
@@ -11,31 +10,5 @@
   // Start by hiding the searchForm and mapView
   $(document.getElementById('searchForm')).toggle();
   $(document.getElementById('mapView')).toggle();
-
-  $('#eventDetailsModal').on('show.bs.modal', function(event) {
-    var modal = $(this);
-    var target = $(event.relatedTarget);
-    var json;
-    if(target.context) { // Grid clicked
-      var dataset = target.context.dataset;
-      json = JSON.parse(dataset.json);
-    } else { // Marker clicked
-      json = modal[0].json;
-    }
-
-    console.log(json);
-
-    modal.find('.modal-title').text(json.name);
-    if( json.venue ) {
-      modal.find('#venueName').text(json.venue.name);
-    }
-    if( json.group ) {
-      modal.find('#groupName').text(json.group.name);
-    }
-
-    modal.find('#eventTime').text(json.time);
-    modal.find('#eventDescription').text(json.description);
-    modal.find('#moreInfo').attr("href", json.link);
-  })
 
 </script>
