@@ -3,12 +3,12 @@
   <% json = @events.values.flatten.to_json %>
 
   <div class="row">
-    <div id="map" class="col-md-8"></div>
-
-    <div class="col-md-4">
-      <%= render 'events/events_list' %>
+    <div class="col-12">
+      <div id="map"></div>
+      <div class="meetup_overlay">
+        <%= render 'events/events_list' %>
+      </div>
     </div>
-
   </div>
 
   <div id="mapMarkerStore" data-json="<%=json%>"></div>

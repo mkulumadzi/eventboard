@@ -147,3 +147,10 @@ label {
   border-top-width: thin;
   border-color: $color-gray;
 }
+
+.meetup_overlay {
+  z-index: 1000;
+  position: absolute;
+  bottom: 10px;
+  padding: 10px;
+}
