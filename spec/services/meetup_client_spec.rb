@@ -132,4 +132,63 @@ describe MeetupClient do
 
   end
 
+  describe 'event' do
+
+    let(:event) { subject.event("groupid", "eventid") }
+
+    before do
+      stub_request(:get, %r{event} ).to_return(body: read_fixture('meetup/event'), status: 200, headers: json_headers )
+    end
+
+    it 'returns the event as a Hash' do
+      expect(event).to be_instance_of(Hash)
+    end
+
+    it 'serializes the meetup' do
+      expect(subject).to receive(:serialize_meetup)
+      event
+    end
+
+  end
+
+  describe 'group' do
+
+    let(:group) { subject.group("groupid") }
+
+    before do
+      stub_request(:get, %r{groupid} ).to_return(body: read_fixture('meetup/group'), status: 200, headers: json_headers )
+    end
+
+    it 'returns the group as a Hash' do
+      expect(group).to be_instance_of(Hash)
+    end
+
+  end
+
+  describe 'event_with_group_details' do
+
+    let(:event) { subject.event_with_group_details('group_id', 'event_id')}
+
+    before do
+      stub_request(:get, %r{group_id} ).to_return(body: read_fixture('meetup/group'), status: 200, headers: json_headers )
+
+      stub_request(:get, %r{event} ).to_return(body: read_fixture('meetup/event'), status: 200, headers: json_headers )
+    end
+
+    it 'returns the event as a Hash' do
+      expect(event).to be_instance_of(Hash)
+    end
+
+    it 'serializes the meetup' do
+      expect(subject).to receive(:serialize_meetup).and_return({})
+      event
+    end
+
+    it 'serializes the meetup with the group' do
+      expect(subject).to receive(:serialize_meetup_with_group)
+      event
+    end
+
+  end
+
 end

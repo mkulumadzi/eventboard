@@ -1,15 +1,15 @@
+#
+# ToDo Consider combining this with the EventsController
+#
+
 class SearchController < ApplicationController
 
   def index
-    search_radius
+    # search_radius
     @events = find_events
   end
 
   private
-
-  def meetup
-    @meetup ||= MeetupClient.new
-  end
 
   def find_events
     meetup.find_events({ lng: params[:lng].to_f, lat: params[:lat].to_f, radius: search_radius, q: params[:q], time: params[:time] } )

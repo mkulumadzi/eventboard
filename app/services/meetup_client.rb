@@ -20,6 +20,23 @@ class MeetupClient < ApiClient
     get("/2/categories?#{key_params}")['results']
   end
 
+  def event(group_id, event_id)
+    serialize_meetup(
+      get("/#{group_id}/events/#{event_id}?#{key_params}")
+    )
+  end
+
+  def group(group_id)
+    get("/#{group_id}?#{key_params}")
+  end
+
+  def event_with_group_details(group_id, event_id)
+    serialize_meetup_with_group(
+      event(group_id, event_id),
+      group(group_id)
+    )
+  end
+
   private
 
   #

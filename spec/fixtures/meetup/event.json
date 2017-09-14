@@ -1,0 +1,50 @@
+{
+  "created": 1449962641000,
+  "duration": 3600000,
+  "fee": {
+    "accepts": "cash",
+    "amount": 5,
+    "currency": "USD",
+    "description": "per person",
+    "label": "Price",
+    "required": false
+  },
+  "id": "qgbwmlywmbrb",
+  "name": "Aura Clearing, Chakra Balancing and Energy Healings Meetup",
+  "rsvp_limit": 30,
+  "status": "upcoming",
+  "time": 1505347200000,
+  "updated": 1475786619000,
+  "utc_offset": -21600000,
+  "waitlist_count": 0,
+  "yes_rsvp_count": 9,
+  "venue": {
+    "id": 16500812,
+    "name": "Journey Within",
+    "lat": 39.70439529418945,
+    "lon": -105.0825424194336,
+    "repinned": false,
+    "address_1": "777 S. Wadsworth Blvd, Building 2 Suite 108",
+    "city": "Lakewood",
+    "country": "us",
+    "localized_country_name": "USA",
+    "zip": "80226",
+    "state": "CO"
+  },
+  "group": {
+    "created": 1220324866000,
+    "name": "Aura Clearing, Chakra Balancing, Energy Healing & Meditation",
+    "id": 1273970,
+    "join_mode": "open",
+    "lat": 39.709999084472656,
+    "lon": -105.06999969482422,
+    "urlname": "energyhealers-430",
+    "who": "Like Minded Friends",
+    "localized_location": "Denver, CO",
+    "region": "en_US"
+  },
+  "link": "https://www.meetup.com/energyhealers-430/events/242769913/",
+  "description": "<p><b>Come visit our healing clinic and<br/></b> <b>EXPERIENCE THE POWER OF ENERGY HEALING!</b></p> <p>Please join us <b>every Wednesday from 6-7 pm</b> at our Weekly Aura Clearing and Chakra Balancing healing clinic. A healing is an energy clearing, like an energy car wash! During a healing energy you don’t need to be carrying is cleared out of your space, including energies that block growth and flow. Whether feeling ill or well, anyone can receive a healing, anytime. These clearings are energizing and clear the body – spirit communication, bringing you back in touch with yourself.</p> <p>We will offer a <b>FREE Energy Healing </b>to any first time visitors.</p> <p>These healings are offered for <b>only $5 per person</b>. Investing $5 in your well-being and peace of mind is much cheaper than the medical bills that could add up from not letting go of the negative energy that is blocking you from growth and stopping you from creating the life you desire.  </p> <p><br/><b>We also offer 1 Hour Intuitive / Clairvoyant / Psychic readings, available by appointment. We offer three levels of readings:</b></p> <p>• Student Readings. Students of the Level 3 Journey Within go through a series of exercises where you get information about past lives, your spiritual journey in this lifetime and energy in or around your aura. These readings are $25 and are available by appointment on 2nd and 4th Wednesday of the month at 7:30 pm.</p> <p>• Graduate Level Intuitive Readings and Energy Healings. Students in our Level 4 Journey Deeper Program provide readings in a question and answer format and also provide healings during the session. We can move energy blocks, old beliefs and patterns that are no longer beneficial to you. These readings are $40 and are available by appointment on Monday evenings at 6:15 pm.</p> <p>• Staff Readings. With the experience of our staff members we offer private readings, house clearings and business healings. These readings are available by appointment. Call for pricing[masked]-7303.</p> <p><b>Would you like take you’re healing to the next level?</b></p> <p><b>We also offer training and guidance,</b> for all levels with Guided Meditations, Angel Healings, Meditation Classes, Intuitive Readings, Pet Energy Healings and more. These events will have an investment for the healings. </p> <p>Our <i>Level 1-101 Basic Meditation for Beginners</i> program will teach you how to:<br/>• Release stress, worry, and anxiety - Move into greater peace and joy<br/>• Heal pain and discomfort – Move into greater health<br/>• Clear blocks to growth – Move into greater creativity</p> <p><i>Level 1 102 Chakras and Aura class</i><br/>Have you been told that one or more of your Chakras are closed or blocked? Do you collect energy from everyone in the room?<br/>• Learn a basic meditation to clean and align each of your Chakras<br/>• Learn an easy technique to set energetic boundaries</p> <p><i> Level 1 103 Learn to Heal with Angels</i><br/>During the 5 weeks you will strengthen your intuition and build a wonderful relationship with the Angels; anyone can work with Angels.<br/>• Meet Archangels, Guardian Angels, Healing Angels and the Angelic Realm<br/>• Be guided through meditations with powerful healings with Angels to help you heal and create the life you desire.</p> <p>All by CHANGING YOUR ENERGY<br/>For more information about this meditation program and other programs we offer please visit &lt;a&gt;www.AnitaDestino.com.&lt;/a&gt;</p> <p>We look forward to meeting you!</p> <p>Anita Destino, ATP®, Founder of Journey Within, Inspiration Spiritual Teacher, Professional Intuitive Reader and Energy Healer in Lakewood, CO.</p> <p><a href=\"http://www.AnitaDestino.com\">www.AnitaDestino.com</a></p> <p><a href=\"http://www.anitadestino.com/Journeywithindenverco.htm\">Journey Within's Website</a></p> <p>[masked]</p> ",
+  "how_to_find_us": "Belmar area; across from Office Depot inside Irongate Executive Plaza  When you come in there is a waiting area, you will be greeted there.",
+  "visibility": "public"
+}

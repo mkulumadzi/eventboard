@@ -6,12 +6,17 @@ module MeetupSerializer
     meetups['results'].map{ |m| serialize_meetup(m) }
   end
 
-  private
-
   def serialize_meetup( meetup )
     meetup['time'] = time(meetup)
     meetup
   end
+
+  def serialize_meetup_with_group( meetup, group )
+    meetup['group'] = group # Meetup is already serialized
+    meetup
+  end
+
+  private
 
   def time( meetup )
     t = Time.at(meetup['time'] / 1000)

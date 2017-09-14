@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h3><%= @event['name']%></h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <em><%= @event['time'] %></em>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <strong><%= @event['venue']['name'] if @event['venue'] %></strong>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <%= @event['group']['name'] if @event['group'] %>
+      <%= @event['description'] %>
+    </div>
+  </div>
+</div>
