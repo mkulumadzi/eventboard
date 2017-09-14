@@ -10,14 +10,13 @@
   <%= button_to event_path(event['group']['urlname'], event['id']), method: :get, class: "event group_type_#{group_class}" do %>
     <div class="container">
       <div class="row">
-        <h5><%= event['name']%></h5>
+        <strong><%= event['name']%></strong>
       </div>
+
       <div class="row">
-        <em><%= event['time'] %></em>
+        <span><em><%= event['time'] %></em><%= " at #{event['venue']['name']}" if event['venue'] %></span>
       </div>
-      <div class="row">
-        <strong><%= event['venue']['name'] if event['venue'] %></strong>
-      </div>
+
       <div class="row">
         <%= event['group']['name'] if event['group'] %>
       </div>

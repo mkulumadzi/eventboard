@@ -1,7 +1,7 @@
 <div class="events container" id="eventsGrid">
   <% @events.each do |date, events| %>
     <div class="row grid_section_header">
-      <h3><%= date %></h3>
+      <p><%= date %></p>
     </div>
     <% events.each_slice(3) do |events| %>
       <div class="row">
