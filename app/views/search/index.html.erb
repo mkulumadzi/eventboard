@@ -1,14 +1,8 @@
+<%= javascript_include_tag "search" %>
+
 <div class="container-fluid">
   <%= render 'search/search_form' %>
   <%= render 'search/search_input' %>
   <%= render 'search/results_map' %>
   <%= render 'events/events_grid' %>
 </div>
-
-<script type="text/javascript">
-
-  // Start by hiding the searchForm and mapView
-  $(document.getElementById('searchForm')).toggle();
-  $(document.getElementById('mapView')).toggle();
-
-</script>

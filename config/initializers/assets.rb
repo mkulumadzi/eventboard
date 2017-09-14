@@ -11,3 +11,7 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 
 Rails.application.config.assets.precompile += %w( custom.scss )
+
+Rails.application.config.assets.precompile += %w( search.coffee )
+Rails.application.config.assets.precompile += %w( static_pages.coffee )
+Rails.application.config.assets.precompile += %w( events.coffee )

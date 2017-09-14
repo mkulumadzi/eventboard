@@ -18,4 +18,4 @@
 //= require moment
 //= require daterangepicker
 //= require turbolinks
-//= require_tree .
+//= require_tree ./global

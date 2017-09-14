@@ -29,74 +29,8 @@
 
       <%= submit_tag "Search", class: "btn btn-primary" %>
 
-      <button type="button" class="btn btn-secondary" id="cancelSearch">Cancel</button>
+      <button type="button" class="btn btn-secondary toggle-search-form">Cancel</button>
     <% end %>
   </div>
 
 </div>
-
-<script type="text/javascript">
-  var countryRestrict = {'country': 'us'};
-  var autocomplete;
-
-  function initAutocomplete() {
-    // Create the autocomplete object, restricting the search to geographical
-    // location types.
-    autocomplete = new google.maps.places.Autocomplete(
-        /** @type {!HTMLInputElement} */(document.getElementById('autocomplete')),
-        {types: ['(cities)'], componentRestrictions: countryRestrict});
-
-    // When the user selects an address from the dropdown, populate the address
-    // fields in the form.
-    autocomplete.addListener('place_changed', placeSelected);
-  }
-
-  // Hackily sending both the lat and lng as well as the viewport... should simplify this.
-
-  function placeSelected() {
-    var place = autocomplete.getPlace();
-
-    var viewport = place.geometry.viewport;
-    var center_lat = (viewport.f.b + viewport.f.f) / 2;
-    var center_lng = (viewport.b.b + viewport.b.f) / 2;
-    document.getElementById('lat').value = center_lat;
-    document.getElementById('lng').value = center_lng;
-
-    document.getElementById('f-b-lat').value = viewport.f.b;
-    document.getElementById('f-f-lat').value = viewport.f.f;
-    document.getElementById('b-b-lng').value = viewport.b.b;
-    document.getElementById('b-f-lng').value = viewport.b.f;
-  }
-</script>
-
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<%=ENV['GOOGLE_API_TOKEN']%>&libraries=places&callback=initAutocomplete"></script>
-
-<script type="text/javascript">
-
-  $('input[class="daterange"]').daterangepicker({
-      autoUpdateInput: false,
-      locale: {
-          cancelLabel: 'Clear'
-      },
-      minDate: moment()
-  });
-
-  $('input[class="daterange"]').on('apply.daterangepicker', function(ev, picker) {
-      $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
-  });
-
-  $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
-      $(this).val('');
-  });
-</script>
-
-
-<!-- Need to refactor this - it duplicates the other toggle search button... -->
-<script type="text/javascript">
-
-  document.getElementById('cancelSearch').onclick = function() {
-    $(document.getElementById('searchForm')).toggle();
-    $(document.getElementById('searchInput')).toggle();
-  }
-
-</script>

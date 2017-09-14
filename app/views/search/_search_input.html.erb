@@ -9,45 +9,14 @@
         <h4>Events near <%= params[:location].split(',').first %><em><%=time_string%></em></h4>
       <% end %>
 
-      <button type="button" class="btn btn-secondary" id="toggleSearch">Edit</button>
+      <button type="button" class="btn btn-secondary toggle-search-form">Edit</button>
 
-      <button type="button" class="btn btn-secondary" id="showMapView">Map View</button>
+      <button type="button" class="btn btn-secondary toggle-results" id="showMapView">Map View</button>
 
-      <button type="button" class="btn btn-secondary" id="showListView">List View</button>
+      <button type="button" class="btn btn-secondary toggle-results" id="showListView">List View</button>
 
     </div>
 
   </div>
 
 </div>
-
-<script type="text/javascript">
-
-  // Start by hiding the list view button.
-  $(document.getElementById('showListView')).toggle();
-
-  document.getElementById('toggleSearch').onclick = function() {
-    $(document.getElementById('searchForm')).toggle();
-    $(document.getElementById('searchInput')).toggle();
-  }
-
-  document.getElementById('showMapView').onclick = function() {
-    toggleResults();
-  }
-
-  document.getElementById('showListView').onclick = function() {
-    toggleResults();
-  }
-
-  function toggleResults() {
-    $(document.getElementById('mapView')).toggle();
-    $(document.getElementById('eventsGrid')).toggle();
-    $(document.getElementById('showMapView')).toggle();
-    $(document.getElementById('showListView')).toggle();
-
-    // The map and currentBounds should already be loaded from the initialization of the map...
-    google.maps.event.trigger(map,'resize');
-    map.fitBounds(mapBounds);
-  }
-
-</script>
