@@ -7,7 +7,9 @@ module MeetupSerializer
   end
 
   def serialize_meetup( meetup )
-    meetup['time'] = time(meetup)
+    time, date = time_and_date_strings( meetup )
+    meetup['time'] = time
+    meetup['date'] = date
     meetup
   end
 
@@ -18,9 +20,15 @@ module MeetupSerializer
 
   private
 
-  def time( meetup )
-    t = Time.at(meetup['time'] / 1000)
-    t.strftime('%a, %b %d %Y at %l:%M %P')
+  def time_and_date_strings( meetup )
+    t = timevalue(meetup)
+    time = t.strftime('%a, %b %d %Y at %l:%M %P')
+    date = t.strftime('%a, %b %d')
+    [time, date]
+  end
+
+  def timevalue( meetup )
+    Time.at(meetup['time'] / 1000)
   end
 
 end

@@ -4,9 +4,9 @@
       <% time_string = params[:time].blank? ? " - today" : "#{ params[:time]}"%>
 
       <% if( params[:q] && !params[:q].blank? ) %>
-        <h4><%="'#{params[:q]}'"%> events near <%= params[:location].split(',').first %><em><%=time_string%></em></h4>
+        <h4><%="'#{params[:q]}'"%> events near <%= params[:location].split(',').first %> <em><%=time_string%></em></h4>
       <% else %>
-        <h4>Events near <%= params[:location].split(',').first %><em><%=time_string%></em></h4>
+        <h4>Events near <%= params[:location].split(',').first %> <em><%=time_string%></em></h4>
       <% end %>
 
       <button type="button" class="btn btn-secondary toggle-search-form">Edit</button>

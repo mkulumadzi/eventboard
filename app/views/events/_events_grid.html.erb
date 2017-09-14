@@ -1,11 +1,16 @@
 <div class="events container" id="eventsGrid">
-  <% @events.each_slice(3) do |events| %>
-    <div class="row">
-      <% events.each do |e| %>
-        <div class="col-lg-4 col-sm-12">
-          <%= render 'events/event', locals: { event: e, type: 'grid' } %>
-        </div>
-      <% end %>
+  <% @events.each do |date, events| %>
+    <div class="row grid_section_header">
+      <h3><%= date %></h3>
     </div>
+    <% events.each_slice(3) do |events| %>
+      <div class="row">
+        <% events.each do |e| %>
+          <div class="col-lg-4 col-sm-12">
+            <%= render 'events/event', locals: { event: e, type: 'grid' } %>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
   <% end if @events %>
 </div>

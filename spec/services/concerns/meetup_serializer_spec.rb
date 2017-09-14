@@ -17,6 +17,10 @@ describe MeetupSerializer do
       expect(serialized[0]['time']).to eq("Tue, Sep 12 2017 at  6:30 pm")
     end
 
+    it 'formats the date' do
+      expect(serialized[0]['date']).to eq("Tue, Sep 12")
+    end
+
   end
 
 end
