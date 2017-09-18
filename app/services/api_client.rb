@@ -5,6 +5,9 @@ class ApiClient
   class ClientError < RuntimeError; end;
   class BadRequest < RuntimeError; end;
 
+  CACHE_NAMESPACE = "Base"
+  DEFAULT_TTL = 3600
+
   attr_reader :base_uri
 
   def initialize( base_uri = nil )
@@ -13,6 +16,14 @@ class ApiClient
   end
 
   def get( uri )
+    cache( uri, ttl: DEFAULT_TTL ) do
+      do_request( uri )
+    end
+  end
+
+  private
+
+  def do_request( uri )
     response = connection.get( uri )
 
     case( response.status )
@@ -28,7 +39,19 @@ class ApiClient
 
   end
 
-  private
+  def cache( uri, ttl: nil )
+    return yield if ttl.nil? # skip cache
+
+    Cache.cache_store.fetch(
+      cache_key(uri),
+      expires_in: ttl
+    ) { yield }
+  end
+
+  def cache_key( uri )
+    code = Digest::SHA1.hexdigest( uri )
+    "#{CACHE_NAMESPACE}:#{code}"
+  end
 
   def uri
     base_uri || raise(ConfigError.new("Missing base_uri.") )

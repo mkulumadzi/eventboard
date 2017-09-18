@@ -62,6 +62,19 @@ describe ApiClient do
       }.to raise_error(ApiClient::ClientError)
     end
 
+    describe 'caching' do
+
+      before do
+        stub_request(:get, %r{cachethis} ).to_return(body: '{"some": "result"}', status: 200, headers: json_headers )
+      end
+
+      it 'caches a new request in the cache store' do
+        expect(Cache.cache_store).to receive(:fetch)
+        subject.get("/cachethis")
+      end
+
+    end
+
   end
 
 end

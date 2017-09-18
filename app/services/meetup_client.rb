@@ -1,6 +1,7 @@
 class MeetupClient < ApiClient
 
   BASE_URI = "https://api.meetup.com"
+  CACHE_NAMESPACE = "Meetup"
 
   include MeetupSerializer
 

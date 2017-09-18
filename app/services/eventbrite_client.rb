@@ -1,6 +1,7 @@
 class EventbriteClient < ApiClient
 
   BASE_URI = "https://www.eventbriteapi.com"
+  CACHE_NAMESPACE = "Eventbrite"
 
   include EventbriteSerializer
 
