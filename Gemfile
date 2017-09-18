@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'faraday'
 gem 'faraday_middleware'
 gem 'excon'
+gem 'dalli'
 
 gem 'haversine'
 gem 'activesupport'
@@ -47,10 +48,6 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-end
-
-group :production do
-  gem 'dalli'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

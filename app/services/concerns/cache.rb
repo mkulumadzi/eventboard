@@ -1,3 +1,5 @@
+require 'active_support/cache/dalli_store'
+
 module Cache
 
   mattr_accessor :cache_store

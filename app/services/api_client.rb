@@ -1,5 +1,3 @@
-require 'active_support/cache/dalli_store'
-
 class ApiClient
 
   class ConfigError < RuntimeError; end;
