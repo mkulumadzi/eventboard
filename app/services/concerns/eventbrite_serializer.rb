@@ -12,6 +12,7 @@ module EventbriteSerializer
     event['venue']['latitude'] = event['venue']['latitude'].to_f
     event['venue']['longitude'] = event['venue']['longitude'].to_f
     time, date = time_and_date_strings( event )
+    event['timevalue'] = timevalue(event).to_i
     event['time'] = time
     event['date'] = date
     event['class'] = "group_type_#{rand(0..4)}"

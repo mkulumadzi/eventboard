@@ -16,7 +16,7 @@ class EventsService
   def events_on_date( date, events )
     events
       .select{ |e| e['date'] == date }
-      .sort{ |a,b| a['time'] <=> b['time'] }
+      .sort{ |a,b| a['timevalue'] <=> b['timevalue'] }
   end
 
   def events( query )
