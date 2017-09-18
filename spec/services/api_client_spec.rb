@@ -1,5 +1,17 @@
 require 'rails_helper'
 
+class MockResponse
+
+  def self.status
+    200
+  end
+
+  def self.body
+    "foo"
+  end
+
+end
+
 describe ApiClient do
 
   let(:base_uri) { "https://coolapi.io" }
@@ -71,6 +83,25 @@ describe ApiClient do
       it 'caches a new request in the cache store' do
         expect(Cache.cache_store).to receive(:fetch)
         subject.get("/cachethis")
+      end
+
+      it 'fetches the request from the remote server if it has not been cached' do
+        expect_any_instance_of(Faraday::Connection).to receive(:get).and_return(MockResponse)
+        subject.get("/cachethis")
+      end
+
+      it 'does not fetch the request from the remote server if it has been cached' do
+        subject.get("/cachethis")
+        expect_any_instance_of(Faraday::Connection).not_to receive(:get)
+        subject.get("/cachethis")
+      end
+
+      it 'fetches the request from the remote server if the ttl has elapsed' do
+        subject.get("/cachethis")
+        Timecop.travel(2.hours) do
+          expect_any_instance_of(Faraday::Connection).to receive(:get).and_return(MockResponse)
+          subject.get("/cachethis")
+        end
       end
 
     end

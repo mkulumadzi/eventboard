@@ -19,6 +19,11 @@ RSpec.configure do |config|
   config.before(:all) do
     # Prevent external connections
     WebMock.disable_net_connect!(allow_localhost: true)
+    Cache.cache_store = :memory
+  end
+
+  config.after(:each) do
+    Cache.cache_store.try(:clear)
   end
 
   config.expect_with :rspec do |expectations|

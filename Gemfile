@@ -39,6 +39,7 @@ group :development, :test do
   gem 'webmock'
   gem 'climate_control'
   gem 'dotenv-rails'
+  gem 'timecop'
 end
 
 group :development do
