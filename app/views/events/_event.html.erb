@@ -1,13 +1,10 @@
 <% event = locals[:event] %>
 <% type = locals[:type] %>
-<% group_id = event['group']['id'] %>
-<% id = event['id'] %>
-<% group_class = group_id % 5 %>
 <% json = event.to_json %>
 
-<div class="event-widget <%="event-#{type}"%>" id="<%="event-#{type}-#{id}"%>">
+<div class="event-widget <%="event-#{type}"%>" id="<%="event-#{type}-#{event['id']}"%>">
 
-  <%= button_to event_path(event['group']['urlname'], event['id']), method: :get, class: "event group_type_#{group_class}" do %>
+  <%= button_to event['rel_path'], method: :get, class: "event #{event['class']}" do %>
     <div class="container">
       <div class="row">
         <strong><%= event['name']%></strong>

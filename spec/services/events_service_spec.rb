@@ -19,8 +19,26 @@ describe EventsService do
     ]
   }
 
+  let(:eventbrite_events) {
+    [
+      {
+        "date" => "06/09/2017",
+        "somekey" => "somevalue"
+      },
+      {
+        "date" => "06/09/2017",
+        "somekey" => "somevalue"
+      },
+      {
+        "date" => "06/09/2017",
+        "somekey" => "somevalue"
+      }
+    ]
+  }
+
   before do
     expect_any_instance_of(MeetupClient).to receive(:find_events).and_return(meetup_events)
+    expect_any_instance_of(EventbriteClient).to receive(:find_events).and_return(eventbrite_events)
   end
 
   describe 'find_events' do
@@ -35,6 +53,7 @@ describe EventsService do
     it 'groups events with the same date' do
       expect(events['06/07/2017'].count).to eq(2)
       expect(events['06/08/2017'].count).to eq(1)
+      expect(events['06/09/2017'].count).to eq(3)
     end
 
   end

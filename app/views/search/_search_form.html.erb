@@ -6,7 +6,7 @@
     <%= form_tag("/search", method: "get") do |f| %>
       <div class="form-group row">
         <div class="col-lg-4">
-          <%= text_field_tag :location, "", class: "form-control", type: "search", placeholder: "Denver, Colorado", id: "autocomplete", required: true%>
+          <%= text_field_tag :location, "", class: "form-control", type: "search", placeholder: "Your City", id: "autocomplete", required: true%>
           <label for="location">Location</label>
         </div>
         <div class="col-lg-4">

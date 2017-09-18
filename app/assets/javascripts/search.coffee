@@ -54,7 +54,7 @@ addMarkers = ->
     e = events[i];
     if e.venue
       markerParams = {
-        position: { lat: e.venue.lat, lng: e.venue.lon },
+        position: { lat: e.venue.latitude, lng: e.venue.longitude },
         map: map,
         title: e.name,
         icon: icons.default.icon,

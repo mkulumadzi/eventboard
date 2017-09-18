@@ -21,6 +21,10 @@ describe MeetupSerializer do
       expect(serialized[0]['date']).to eq("Tue, Sep 12")
     end
 
+    it 'generates a relative path' do
+      expect(serialized[0]['rel_path']).to eq("events/meetup/Congress-Park-Run-Club/rfvhqnywmbqb")
+    end
+
   end
 
 end

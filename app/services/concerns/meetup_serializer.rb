@@ -10,6 +10,10 @@ module MeetupSerializer
     time, date = time_and_date_strings( meetup )
     meetup['time'] = time
     meetup['date'] = date
+    meetup['venue']['latitude'] = meetup['venue']['lat'] if meetup['venue']
+    meetup['venue']['longitude'] = meetup['venue']['lon'] if meetup['venue']
+    meetup['class'] = ( meetup['group'] ? "group_type_#{meetup['group']['id'] % 5}" : "group_type_0")
+    meetup['rel_path'] = "events/meetup/#{meetup['group']['urlname']}/#{meetup['id']}"
     meetup
   end
 

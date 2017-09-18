@@ -11,4 +11,8 @@ class ApplicationController < ActionController::Base
     @meetup ||= MeetupClient.new
   end
 
+  def eventbrite
+    @eventbrite ||= EventbriteClient.new
+  end
+
 end

@@ -1,0 +1,1211 @@
+{
+  "pagination": {
+    "object_count": 14,
+    "page_number": 1,
+    "page_size": 50,
+    "page_count": 1,
+    "has_more_items": false
+  },
+  "events": [
+    {
+      "name": {
+        "text": "Tonight's Broncos preseason",
+        "html": "Tonight&#39;s Broncos preseason"
+      },
+      "description": {
+        "text": "Tickets were $68 looking for $30-$40 a piece.",
+        "html": "<P>Tickets were $68 looking for $30-$40 a piece.</P>"
+      },
+      "id": "37509349474",
+      "url": "https://www.eventbrite.com/e/tonights-broncos-preseason-tickets-37509349474?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-10-10T19:00:00",
+        "utc": "2017-10-11T01:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-10-10T22:00:00",
+        "utc": "2017-10-11T04:00:00Z"
+      },
+      "created": "2017-09-01T00:05:44Z",
+      "changed": "2017-09-01T00:07:40Z",
+      "capacity": 2,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": null,
+      "organizer_id": "14994023565",
+      "venue_id": "20961995",
+      "category_id": "108",
+      "subcategory_id": null,
+      "format_id": "14",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/37509349474/",
+      "logo": null,
+      "venue": {
+        "address": {
+          "address_1": "1701 Bryant Street",
+          "address_2": null,
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80204",
+          "country": "US",
+          "latitude": "39.7440777",
+          "longitude": "-105.02012790000003",
+          "localized_address_display": "1701 Bryant Street, Denver, CO 80204",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "1701 Bryant Street",
+            "Denver, CO 80204"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/20961995/",
+        "id": "20961995",
+        "name": "Sports Authority Field at Mile High",
+        "latitude": "39.7440777",
+        "longitude": "-105.02012790000003"
+      }
+    },
+    {
+      "name": {
+        "text": "Boulder Alpha Phi Red Dress Gala",
+        "html": "Boulder Alpha Phi Red Dress Gala"
+      },
+      "description": {
+        "text": "Please join us one night of CU Parent's Weekend in supporting the Alpha Phi Foundation. It will be a festive night with good friends, great food, captivating entertainment and an exciting silent and live auction performed by Vic Lombardi, a professional auctioneer and one of the most respected sports personalities in the country. \n\nThe Alpha Phi Foundation is an important aspect to our members involvement in Alpha Phi. As a chapter, we are passionate about funding an organization that supports research and educational essentials for women's heart health. We hope you can join our chapter and contribute to our foundation that helps find a cure for the number one killer of women in America - heart disease. \nOur venue this year will be at Sports Authority Field, the Denver Broncos Stadium. We have reserved the Club Level Suite with stadium access. Come prepared for fun games, live music, heavy hors d'oeures and a cash bar. \nParents, If you would like to ride with your daughter on the busses that Alpha Phi provides from Boulder, please RSVP for a seat on the bus in that area of the invite. \n\n\nWe can't wait to see you there and hope you'll participate in this very special Alpha Phi tradition.\n\n",
+        "html": "<P CLASS=\"m_-2542315842645783464gmail-p1\">Please join us one night of CU Parent's Weekend in supporting the <A HREF=\"https://www.alphaphifoundation.org/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Alpha Phi Foundation</A>. It will be a festive night with good friends, great food, captivating entertainment and an exciting silent and live auction performed by Vic Lombardi, <SPAN>a professional auctioneer and one of the most respected sports personalities in the country.</SPAN> </P>\n<P CLASS=\"m_-2542315842645783464gmail-p1\"><BR></P>\n<P CLASS=\"m_-2542315842645783464gmail-p1\">The Alpha Phi Foundation is an important aspect to our members involvement in Alpha Phi. As a chapter, we are passionate about funding an organization that supports <A HREF=\"https://www.youtube.com/watch?v=MewklckglAU\" TARGET=\"_self\" REL=\"nofollow\">research and educational essentials</A> for women's heart health. We hope you can join our chapter and contribute to our foundation that helps find a cure for the number one killer of women in America - heart disease. </P>\n<P CLASS=\"m_-2542315842645783464gmail-p1\">Our venue this year will be at <A HREF=\"http://www.sportsauthorityfieldatmilehigh.com\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Sports Authority Field</A>, the Denver Broncos Stadium. We have reserved the Club Level Suite with stadium access. Come prepared for fun games, live music, heavy hors d'oeures and a cash bar. </P>\n<P CLASS=\"m_-2542315842645783464gmail-p1\">Parents, If you would like to ride with your daughter on the busses that Alpha Phi provides from Boulder, please RSVP for a seat on the bus in that area of the invite. </P>\n<DIV>\n<P CLASS=\"m_-2542315842645783464gmail-p1\"><BR></P>\n<P CLASS=\"m_-2542315842645783464gmail-p1\">We can't wait to see you there and hope you'll participate in this very special Alpha Phi tradition.</P>\n<P CLASS=\"m_-2542315842645783464gmail-p1\"><IMG SRC=\"https://cdn.evbuc.com/eventlogos/149154307/screenshot20170913at3.23.55pm.png\"></P>\n</DIV>"
+      },
+      "id": "37767966003",
+      "url": "https://www.eventbrite.com/e/boulder-alpha-phi-red-dress-gala-tickets-37767966003?aff=ebapi",
+      "vanity_url": "https://boulderalphaphireddressgalatickets.eventbrite.com",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-10-06T17:30:00",
+        "utc": "2017-10-06T23:30:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-10-06T21:00:00",
+        "utc": "2017-10-07T03:00:00Z"
+      },
+      "created": "2017-09-08T20:31:36Z",
+      "changed": "2017-09-18T16:44:30Z",
+      "capacity": 600,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "35156373",
+      "organizer_id": "8396521078",
+      "venue_id": "21070743",
+      "category_id": "111",
+      "subcategory_id": null,
+      "format_id": "8",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/37767966003/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 0
+          },
+          "width": 460,
+          "height": 230
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F35156373%2F150198387149%2F1%2Foriginal.jpg?s=8f84a6f42a6dc31c21569be4b41e116e",
+          "width": 460,
+          "height": 230
+        },
+        "id": "35156373",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F35156373%2F150198387149%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C460%2C230&s=d4d793f79924f990323aaf5bfdab7d7c",
+        "aspect_ratio": "2",
+        "edge_color": "#d6a9a5",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "1701 Bryant Street",
+          "address_2": null,
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80204",
+          "country": "US",
+          "latitude": "39.74393919999999",
+          "longitude": "-105.020105",
+          "localized_address_display": "1701 Bryant Street, Denver, CO 80204",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "1701 Bryant Street",
+            "Denver, CO 80204"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/21070743/",
+        "id": "21070743",
+        "name": "Sports Authority Field at Mile High",
+        "latitude": "39.74393919999999",
+        "longitude": "-105.020105"
+      }
+    },
+    {
+      "name": {
+        "text": "Sports Authority at Mile High Stadium Tour",
+        "html": "Sports Authority at Mile High Stadium Tour"
+      },
+      "description": {
+        "text": "Due to Sports Authority Field at Mile High Stadium's registration requirements, cut off for registration is Tuesday, October 3 or until all available tickets sell out.\n\nEnjoy a tailgate party at the Sheraton Downtown Denver, including drinks and heavy appetizers, before heading to a 75-90-minute VIP tour of Sports Authority Field at Mile High Stadium. Don't miss this opportunity for a \"behind the scenes\" glimpse of the home of the Denver Broncos and one of the most state-of-the-art stadiums in the country. \n\nThis exclusive tour includes stops at the:\n\n\nColorado Sports Hall of Fame Museum\n\n\n\n\nExecutive Suite \n\n\n\n\nUnited Club Level \n\n\n\n\nVisiting Team Locker Room \n\n\n\n\nKeg Room \n\n\n\n\nThunder's Stall\n\n\n\n\nEnd Zone \n\n\n\n\nTelevision Truck Production Area \n\n\n\n\nPress Center\n\nInclusionsAccess to Tailgate Party including appetizers and drinksShuttle Service to Sports Authority Field at Mile High StadiumGuided tour of Sports Authority Field at Mile High Stadium\nMaximum of 350 registrations allowed on tour. Cartegraph reserves the right to cancel this tour.\nRefund Policy: Cancellations received after Friday, September 8, 2017 will forfeit 100% of their registration fee.\n",
+        "html": "<DIV CLASS=\"ace-line\"><EM><SPAN CLASS=\"author-vaAvKmIWC35M\">Due to Sports Authority Field at Mile High Stadium's <SPAN CLASS=\"author-vaAvKmIWC35M\">registration requirements</SPAN>, cut off for registration is Tuesday, October 3 or until all available tickets sell out.</SPAN></EM></DIV>\n<DIV CLASS=\"ace-line\"><BR></DIV>\n<DIV CLASS=\"ace-line\"><SPAN CLASS=\"author-vaAvKmIWC35M\">Enjoy a tailgate party at the Sheraton Downtown Denver, including drinks and heavy appetizers, before </SPAN><SPAN CLASS=\"author-4SL6eX0CFLjq\">heading to a 75-90-minute VIP tour of Sports Authority Field at Mile High Stadium. Don't miss this opportunity for a \"behind the scenes\" glimpse of the home of the Denver Broncos and one of the most state-of-the-art stadiums in the country. </SPAN></DIV>\n<DIV CLASS=\"ace-line\"><BR></DIV>\n<DIV CLASS=\"ace-line\"><SPAN CLASS=\"author-vaAvKmIWC35M\">This </SPAN><SPAN CLASS=\"author-4SL6eX0CFLjq\">exclusive </SPAN><SPAN CLASS=\"author-vaAvKmIWC35M\">tour includes stops at the:</SPAN></DIV>\n<DIV CLASS=\"ace-line\">\n<UL CLASS=\"list-bullet1\">\n<LI><SPAN CLASS=\"author-vaAvKmIWC35M\">Colorado Sports Hall of Fame Museum</SPAN></LI>\n</UL>\n</DIV>\n<DIV CLASS=\"ace-line\">\n<UL CLASS=\"list-bullet1\">\n<LI><SPAN CLASS=\"author-vaAvKmIWC35M\">Executive Suite </SPAN></LI>\n</UL>\n</DIV>\n<DIV CLASS=\"ace-line\">\n<UL CLASS=\"list-bullet1\">\n<LI><SPAN CLASS=\"author-vaAvKmIWC35M\">United Club Level </SPAN></LI>\n</UL>\n</DIV>\n<DIV CLASS=\"ace-line\">\n<UL CLASS=\"list-bullet1\">\n<LI><SPAN CLASS=\"author-vaAvKmIWC35M\">Visiting Team Locker Room </SPAN></LI>\n</UL>\n</DIV>\n<DIV CLASS=\"ace-line\">\n<UL CLASS=\"list-bullet1\">\n<LI><SPAN CLASS=\"author-vaAvKmIWC35M\">Keg Room </SPAN></LI>\n</UL>\n</DIV>\n<DIV CLASS=\"ace-line\">\n<UL CLASS=\"list-bullet1\">\n<LI><SPAN CLASS=\"author-vaAvKmIWC35M\">Thunder's Stall</SPAN></LI>\n</UL>\n</DIV>\n<DIV CLASS=\"ace-line\">\n<UL CLASS=\"list-bullet1\">\n<LI><SPAN CLASS=\"author-vaAvKmIWC35M\">End Zone </SPAN></LI>\n</UL>\n</DIV>\n<DIV CLASS=\"ace-line\">\n<UL CLASS=\"list-bullet1\">\n<LI><SPAN CLASS=\"author-vaAvKmIWC35M\">Television Truck Production Area </SPAN></LI>\n</UL>\n</DIV>\n<DIV CLASS=\"ace-line\">\n<UL CLASS=\"list-bullet1\">\n<LI><SPAN CLASS=\"author-vaAvKmIWC35M\">Press Center</SPAN></LI>\n</UL>\n<P><SPAN CLASS=\"author-vaAvKmIWC35M\"><STRONG>Inclusions</STRONG><BR>Access to Tailgate Party including appetizers and drinks<BR>Shuttle Service to Sports Authority Field at Mile High Stadium<BR>Guided tour of Sports Authority Field at Mile High Stadium</SPAN></P>\n<P><I>Maximum of 350 registrations allowed on tour. Cartegraph reserves the right to cancel this tour.</I></P>\n<DIV><I>Refund Policy: Cancellations received after Friday, September 8, 2017 will forfeit 100% of their registration fee.</I></DIV>\n</DIV>"
+      },
+      "id": "34149324549",
+      "url": "https://www.eventbrite.com/e/sports-authority-at-mile-high-stadium-tour-tickets-34149324549?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-10-12T17:30:00",
+        "utc": "2017-10-12T23:30:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-10-12T19:30:00",
+        "utc": "2017-10-13T01:30:00Z"
+      },
+      "created": "2017-04-28T18:41:03Z",
+      "changed": "2017-09-18T14:40:57Z",
+      "capacity": 32,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "32089987",
+      "organizer_id": "12187397753",
+      "venue_id": "19665578",
+      "category_id": "108",
+      "subcategory_id": "8007",
+      "format_id": "16",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/34149324549/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 0
+          },
+          "width": 2160,
+          "height": 1080
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F32089987%2F194787371366%2F1%2Foriginal.jpg?s=d4c1a93d76571eab79bfb63143649281",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "32089987",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F32089987%2F194787371366%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C2160%2C1080&s=8e013bb55e7decf9ee53b5d30a3f4fb8",
+        "aspect_ratio": "2",
+        "edge_color": "#f79731",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": null,
+          "address_2": null,
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80204",
+          "country": "US",
+          "latitude": "39.7433931",
+          "longitude": "-105.01309200000003",
+          "localized_address_display": "Denver, CO 80204",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "Denver, CO 80204"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/19665578/",
+        "id": "19665578",
+        "name": "Sports Authority Field at Mile High Stadium",
+        "latitude": "39.7433931",
+        "longitude": "-105.01309200000003"
+      }
+    },
+    {
+      "name": {
+        "text": "Opportunity Coalition Event featuring Tom Lawrence, President & CEO of the Colorado Sports Hall of Fame",
+        "html": "Opportunity Coalition Event featuring Tom Lawrence, President &amp; CEO of the Colorado Sports Hall of Fame"
+      },
+      "description": {
+        "text": "At the University of Colorado in Boulder, Tom played varsity basketball on a full athletic scholarship while earning dual Bachelor of Science degrees in Marketing and Small Business Management as well as Commercial Recreation and attended University of Colorado-Denver for post graduate MBA studies.   He began his sports-focused career with the national distributor of “Proturf” synthetic athlete surfaces for field house and gymnasium floors and then moved on to the Denver Nuggets Basketball Club as Vice President of Corporate Sales in the late 90’s.\r\nDuring the early 90’s he was Executive Vice President of the startup Denver-based Bonham Group, a sports & entertainment marketing and consulting firm, which brought him into close contact with PepsiCo, USA Wrestling, the U. S. Gymnastics Federation, the Denver Baseball Organizing Committee and the Colorado High School Activities Association.  He spent the remainder of the decade with Denver Broncos’ Penthouse Suites, Ltd. as Managing Director of the partnership’s operation at Mile High Stadium, working with the Denver Broncos, Colorado Rockies and special event promoters, before becoming an owner/consultant of SportSells, Inc., a similar sports marketing and consulting firm with projects in Denver, San Francisco, Manchester NH and Greenville, SC, working with Carl Scheer and Scheer Sports Inc., developing and building the Verizon Wireless Arena in Manchester, NH and the BiLo Arena in Greenville, SC. \r\nImmediately prior to assuming his Colorado Sports Hall of Fame responsibilities in 2003, Tom served as Assistant General Manager and Director of Golf Operations for San Francisco’s historic Presidio Golf Course and Club.  As President & CEO of the Colorado Sports Hall of Fame, a 501-c-3 nonprofit organization which includes a very special museum you may not know about at Mile High Stadium, Tom has negotiated alliances with other foundations and sports groups, organized the 4A and 5A Colorado high school football “Championship Saturday” event at Sports Authority Field at Mile High, launched the CSHoF Golf Classic and overseen the annual CSHoF Induction Banquet.  The Colorado Sports Hall of Fame, during Tom’s tenure, has contributed more than $1,400,000 to youth sports organizations like Colorado High School Activities Assn., Special Olympics Colorado, National Sports Center for the Disabled, Gold Crown Foundation, Colorado Golf Assn., and Sportswomen of Colorado.  In addition to turning a $250,000 deficit at the CSHoF in 2003 into $1,000,000 in reserves in 2017.                                                               \r\nHe has also been involved as a board member of Boys and Girls Clubs of Metro Denver, the Denver Nuggets Foundation, CU’s Athletic Mentor Program, Colorado Golf Hall of Fame, Colorado Open Golf Foundation, Denver Sports Advisory Council, and past president of the Colorado Golf Association.  Also serving as Board Chairman of CommonGround Golf Course and Real Estate entities for the CGA and CWGA, which owns CommonGround GC.  Past president of the board of Lakewood Country Club, and founding board member of the Colorado Golf Foundation. \r\n http://educateaurora.com/aurora-public-schools-alumni/   ",
+        "html": "<P ID=\"yui_3_17_2_11_1503355803182_587\" STYLE=\"font-family: proxima-nova; line-height: 1.7em; font-size: 15px; margin: 0px 0px 28px; word-wrap: break-word;\"><IMG STYLE=\"margin: 10px; float: right;\" ALT=\"\" SRC=\"https://static1.squarespace.com/static/50f8a877e4b0cbbacf1446e1/t/599b6450d7bdce53a3be64a6/1503355991700/2017+formal+head+shot+%281%29.jpg?format=300w\" HEIGHT=\"133\" WIDTH=\"200\">At the University of Colorado in Boulder, Tom played varsity basketball on a full athletic scholarship while earning dual Bachelor of Science degrees in Marketing and Small Business Management as well as Commercial Recreation and attended University of Colorado-Denver for post graduate MBA studies.   He began his sports-focused career with the national distributor of “Proturf” synthetic athlete surfaces for field house and gymnasium floors and then moved on to the Denver Nuggets Basketball Club as Vice President of Corporate Sales in the late 90’s.</P>\r\n<P STYLE=\"font-family: proxima-nova; line-height: 1.7em; font-size: 15px; margin: 0px 0px 28px; word-wrap: break-word;\">During the early 90’s he was Executive Vice President of the startup Denver-based Bonham Group, a sports &amp; entertainment marketing and consulting firm, which brought him into close contact with PepsiCo, USA Wrestling, the U. S. Gymnastics Federation, the Denver Baseball Organizing Committee and the Colorado High School Activities Association.  He spent the remainder of the decade with Denver Broncos’ Penthouse Suites, Ltd. as Managing Director of the partnership’s operation at Mile High Stadium, working with the Denver Broncos, Colorado Rockies and special event promoters, before becoming an owner/consultant of SportSells, Inc., a similar sports marketing and consulting firm with projects in Denver, San Francisco, Manchester NH and Greenville, SC, working with Carl Scheer and Scheer Sports Inc., developing and building the Verizon Wireless Arena in Manchester, NH and the BiLo Arena in Greenville, SC. </P>\r\n<P STYLE=\"font-family: proxima-nova; line-height: 1.7em; font-size: 15px; margin: 0px 0px 28px; word-wrap: break-word;\">Immediately prior to assuming his Colorado Sports Hall of Fame responsibilities in 2003, Tom served as Assistant General Manager and Director of Golf Operations for San Francisco’s historic Presidio Golf Course and Club.  As President &amp; CEO of the Colorado Sports Hall of Fame, a 501-c-3 nonprofit organization which includes a very special museum you may not know about at Mile High Stadium, Tom has negotiated alliances with other foundations and sports groups, organized the 4A and 5A Colorado high school football “Championship Saturday” event at Sports Authority Field at Mile High, launched the CSHoF Golf Classic and overseen the annual CSHoF Induction Banquet.  The Colorado Sports Hall of Fame, during Tom’s tenure, has contributed more than $1,400,000 to youth sports organizations like Colorado High School Activities Assn., Special Olympics Colorado, National Sports Center for the Disabled, Gold Crown Foundation, Colorado Golf Assn., and Sportswomen of Colorado.  In addition to turning a $250,000 deficit at the CSHoF in 2003 into $1,000,000 in reserves in 2017.                                                               </P>\r\n<P STYLE=\"font-family: proxima-nova; line-height: 1.7em; font-size: 15px; margin: 0px 0px 28px; word-wrap: break-word;\">He has also been involved as a board member of Boys and Girls Clubs of Metro Denver, the Denver Nuggets Foundation, CU’s Athletic Mentor Program, Colorado Golf Hall of Fame, Colorado Open Golf Foundation, Denver Sports Advisory Council, and past president of the Colorado Golf Association.  Also serving as Board Chairman of CommonGround Golf Course and Real Estate entities for the CGA and CWGA, which owns CommonGround GC.  Past president of the board of Lakewood Country Club, and founding board member of the Colorado Golf Foundation. </P>\r\n<P STYLE=\"font-family: proxima-nova; line-height: 1.7em; font-size: 15px; margin: 0px 0px 28px; word-wrap: break-word;\"> <A STYLE=\"color: #fb8004; text-decoration-line: none; word-wrap: break-word;\" HREF=\"http://educateaurora.com/aurora-public-schools-alumni/\" TARGET=\"_blank\" REL=\"noopener noreferrer nofollow\">http://educateaurora.com/aurora-public-schools-alumni/</A>   </P>"
+      },
+      "id": "37226008995",
+      "url": "https://www.eventbrite.com/e/opportunity-coalition-event-featuring-tom-lawrence-president-ceo-of-the-colorado-sports-hall-of-fame-tickets-37226008995?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2018-01-11T17:00:00",
+        "utc": "2018-01-12T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2018-01-11T19:00:00",
+        "utc": "2018-01-12T02:00:00Z"
+      },
+      "created": "2017-08-21T22:58:21Z",
+      "changed": "2017-08-21T23:03:40Z",
+      "capacity": 1550,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "34468286",
+      "organizer_id": "3202811836",
+      "venue_id": "17843467",
+      "category_id": "101",
+      "subcategory_id": null,
+      "format_id": "10",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/37226008995/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 42
+          },
+          "width": 1366,
+          "height": 683
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F34468286%2F51362945328%2F1%2Foriginal.jpg?s=290208aed60c2710861acb38d56c31af",
+          "width": null,
+          "height": null
+        },
+        "id": "34468286",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F34468286%2F51362945328%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C42%2C1366%2C683&s=c7af2518cd3a4ff107746c088eb0e3f2",
+        "aspect_ratio": "2",
+        "edge_color": "#010101",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "1550 Wewatta St",
+          "address_2": "2nd Floor",
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80202",
+          "country": "US",
+          "latitude": "39.7525618",
+          "longitude": "-105.00231350000001",
+          "localized_address_display": "1550 Wewatta St 2nd Floor, Denver, CO 80202",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "1550 Wewatta St",
+            "2nd Floor",
+            "Denver, CO 80202"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/17843467/",
+        "id": "17843467",
+        "name": "WeWork | Triangle Building",
+        "latitude": "39.7525618",
+        "longitude": "-105.00231350000001"
+      }
+    },
+    {
+      "name": {
+        "text": "Google Analytics: Fundamentals Denver",
+        "html": "Google Analytics: Fundamentals Denver"
+      },
+      "description": {
+        "text": "Whether you are brand new to Google Analytics or just looking for a refresher on the basics, Google Analytics: Fundamentals is the course for you. At Cardinal Path, we focus on providing you with a broad introduction to all of the reports – and more importantly, the business insights – that web analytics can generate. This training will show you how to understand who your visitors are, how they got to your site, what they did while they were there, and how valuable they really are. We also explore Google Data Studio to help you start making useful dashboards. Please ensure you have administrative access to an Analytics account. To set up an Analytics account, go to: Google Analytics.\nRamp up your skills this fall and take control of your marketing campaigns and budgets by becoming an Analytics Ninja! Expert Google Analytics training in downtown Denver. To learn more about our Google Analytics courses and see the agenda and pre-requisites please visit the AdWords Training or Analytics Training pages.\nThe training facility is right downtown and is walking distance from some of Denver’s major attractions, including the Denver Broncos Football Stadium and the Museum of Nature & Science. Easy access to public transportation and hotels.\nDiscounted hotels: https://www.mclabs.com/room-rentals/microtek-denver/\nDirections and parking: https://www.mclabs.com/room-rentals/microtek-denver/",
+        "html": "<P><SPAN CLASS=\"tx\">Whether you are brand new to Google Analytics or just looking for a refresher on the </SPAN><SPAN CLASS=\"tx\">basics, Google Analytics: Fundamentals is the course for you. At Cardinal Path, we focus </SPAN><SPAN CLASS=\"tx\">on providing you with a broad introduction to all of the reports – and more importantly, </SPAN><SPAN CLASS=\"tx\">the business insights – that web analytics can generate. This training will show you how </SPAN><SPAN CLASS=\"tx\">to understand who your visitors are, how they got to your site, what they did while they </SPAN><SPAN CLASS=\"tx\">were there, and how valuable they really are. We also explore Google Data Studio to help you start making useful dashboards. Please ensure you have administrative access to an Analytics account. To set up an Analytics account, go to: <A HREF=\"https://www.google.com/analytics\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Google Analytics</A>.</SPAN></P>\n<P><SPAN>Ramp up your skills this fall and take control of your marketing campaigns and budgets by becoming an Analytics Ninja! Expert Google Analytics training in downtown Denver. </SPAN>To learn more about our Google Analytics courses and see the agenda and <SPAN>pre-requisites</SPAN> please visit the <A HREF=\"http://www.cardinalpath.com/training/google-adwords/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">AdWords Training</A> or <A HREF=\"http://www.cardinalpath.com/training/google-analytics/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Analytics Training</A> pages.</P>\n<P>The training facility is right downtown and is walking distance from some of Denver’s major attractions, including the Denver Broncos Football Stadium and the Museum of Nature &amp; Science. Easy access to public transportation and hotels.</P>\n<P>Discounted hotels: <A HREF=\"https://www.mclabs.com/room-rentals/microtek-denver/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.mclabs.com/room-rentals/microtek-denver/</A></P>\n<P>Directions and parking: <A HREF=\"https://www.mclabs.com/room-rentals/microtek-denver/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.mclabs.com/room-rentals/microtek-denver/</A></P>"
+      },
+      "id": "37074595112",
+      "url": "https://www.eventbrite.ca/e/google-analytics-fundamentals-denver-tickets-37074595112?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-09-20T09:00:00",
+        "utc": "2017-09-20T15:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-09-20T16:00:00",
+        "utc": "2017-09-20T22:00:00Z"
+      },
+      "created": "2017-08-16T19:43:08Z",
+      "changed": "2017-09-01T18:56:12Z",
+      "capacity": 16,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_CA",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": null,
+      "organizer_id": "13555758696",
+      "venue_id": "20973094",
+      "category_id": "101",
+      "subcategory_id": null,
+      "format_id": "9",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/37074595112/",
+      "logo": null,
+      "venue": {
+        "address": {
+          "address_1": "999 18th Street",
+          "address_2": "South Tower, Suite 300",
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80202",
+          "country": "US",
+          "latitude": "39.7495213",
+          "longitude": "-104.99136880000003",
+          "localized_address_display": "999 18th Street South Tower, Suite 300, Denver, CO 80202",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "999 18th Street",
+            "South Tower, Suite 300",
+            "Denver, CO 80202"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/20973094/",
+        "id": "20973094",
+        "name": "Denver Mircrotek",
+        "latitude": "39.7495213",
+        "longitude": "-104.99136880000003"
+      }
+    },
+    {
+      "name": {
+        "text": "Google Analytics: Reporting and Analysis Denver",
+        "html": "Google Analytics: Reporting and Analysis Denver"
+      },
+      "description": {
+        "text": "Google Analytics: Reporting and Analysis will expose you to the advanced features and analysis techniques that real analytics ninjas use. You will learn how to use powerful tools like campaign attribution and advanced segments with real-world analysis techniques, as well as effective methods for setting up goals and improving the integrity of your data. By the time you have finished this Google Analytics course, you will be able to move away from top ten reports and focus on higher quality analysis that adds value and revenue to your organization.\nRamp up your skills this fall and take control of your marketing campaigns and budgets by becoming an Analytics Ninja! Expert Google Analytics training in downtown Denver. To learn more about our Google Analytics courses and see the agenda and pre-requisites please visit the AdWords Training or Analytics Training pages.\nThe training facility is right downtown and is walking distance from some of Denver’s major attractions, including the Denver Broncos Football Stadium and the Museum of Nature & Science. Easy access to public transportation and hotels.\nDiscounted hotels: https://www.mclabs.com/room-rentals/microtek-denver/\nDirections and parking: https://www.mclabs.com/room-rentals/microtek-denver/",
+        "html": "<P><SPAN CLASS=\"tx\">Google Analytics: Reporting and Analysis will expose you to the advanced features and </SPAN><SPAN CLASS=\"tx\">analysis techniques that real analytics ninjas use.</SPAN><SPAN> You will learn how to use powerful tools like campaign attribution and advanced segments with real-world analysis techniques, as well as effective methods for setting up goals and improving the integrity of your data. By the time you have finished this Google Analytics course, you will be able to move away from top ten reports and focus on higher quality analysis that adds value and revenue to your organization.</SPAN></P>\n<P><SPAN>Ramp up your skills this fall and take control of your marketing campaigns and budgets by becoming an Analytics Ninja! Expert Google Analytics training in downtown Denver. </SPAN>To learn more about our Google Analytics courses and see the agenda and <SPAN>pre-requisites</SPAN> please visit the <A HREF=\"http://www.cardinalpath.com/training/google-adwords/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">AdWords Training</A> or <A HREF=\"http://www.cardinalpath.com/training/google-analytics/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Analytics Training</A> pages.</P>\n<P>The training facility is right downtown and is walking distance from some of Denver’s major attractions, including the Denver Broncos Football Stadium and the Museum of Nature &amp; Science. Easy access to public transportation and hotels.</P>\n<P>Discounted hotels: <A HREF=\"https://www.mclabs.com/room-rentals/microtek-denver/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.mclabs.com/room-rentals/microtek-denver/</A></P>\n<P>Directions and parking: <A HREF=\"https://www.mclabs.com/room-rentals/microtek-denver/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.mclabs.com/room-rentals/microtek-denver/</A></P>"
+      },
+      "id": "37074908048",
+      "url": "https://www.eventbrite.ca/e/google-analytics-reporting-and-analysis-denver-tickets-37074908048?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-09-21T09:00:00",
+        "utc": "2017-09-21T15:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-09-21T16:00:00",
+        "utc": "2017-09-21T22:00:00Z"
+      },
+      "created": "2017-08-16T19:56:02Z",
+      "changed": "2017-09-01T18:56:25Z",
+      "capacity": 16,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_CA",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": null,
+      "organizer_id": "13555758696",
+      "venue_id": "20973094",
+      "category_id": "101",
+      "subcategory_id": null,
+      "format_id": "9",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/37074908048/",
+      "logo": null,
+      "venue": {
+        "address": {
+          "address_1": "999 18th Street",
+          "address_2": "South Tower, Suite 300",
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80202",
+          "country": "US",
+          "latitude": "39.7495213",
+          "longitude": "-104.99136880000003",
+          "localized_address_display": "999 18th Street South Tower, Suite 300, Denver, CO 80202",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "999 18th Street",
+            "South Tower, Suite 300",
+            "Denver, CO 80202"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/20973094/",
+        "id": "20973094",
+        "name": "Denver Mircrotek",
+        "latitude": "39.7495213",
+        "longitude": "-104.99136880000003"
+      }
+    },
+    {
+      "name": {
+        "text": "Google Tag Manager: Fundamentals and Implementation Denver",
+        "html": "Google Tag Manager: Fundamentals and Implementation Denver"
+      },
+      "description": {
+        "text": "This Google Tag Manager (GTM) course is focused on understanding the collection abilities of GTM and how to use it to fit your organization’s needs. If you want to learn how to employ GTM, including how to track advanced Google Analytics features (like events, cross-domain, custom dimensions, and other advanced website data), this is the course for you! This course will arm you with the technical skills needed to achieve your company’s toughest measurement goals. \nRamp up your skills this fall and take control of your marketing campaigns and budgets by becoming an Analytics Ninja! Expert Google Analytics training in downtown Denver. To learn more about our Google Analytics courses and see the agenda and pre-requisites please visit the AdWords Training or Analytics Training pages.\nThe training facility is right downtown and is walking distance from some of Denver’s major attractions, including the Denver Broncos Football Stadium and the Museum of Nature & Science. Easy access to public transportation and hotels.\nDiscounted hotels: https://www.mclabs.com/room-rentals/microtek-denver/\nDirections and parking: https://www.mclabs.com/room-rentals/microtek-denver/",
+        "html": "<P><SPAN CLASS=\"tx\">This Google Tag Manager (GTM) course is focused on understanding the collection </SPAN><SPAN CLASS=\"tx\">abilities of GTM and how to use it </SPAN><SPAN CLASS=\"tx\">to fit your organization’s needs. If you want to learn how to employ </SPAN><SPAN CLASS=\"tx\">GTM, including how to track advanced Google Analytics features </SPAN><SPAN CLASS=\"tx\">(like events, cross-domain, custom dimensions, and other advanced website data), </SPAN><SPAN CLASS=\"tx\">this is the course for you! This course will arm you with the technical skills needed </SPAN><SPAN CLASS=\"tx\">to achieve your company’s toughest measurement goals. </SPAN></P>\n<P><SPAN>Ramp up your skills this fall and take control of your marketing campaigns and budgets by becoming an Analytics Ninja! Expert Google Analytics training in downtown Denver. </SPAN>To learn more about our Google Analytics courses and see the agenda and <SPAN>pre-requisites</SPAN> please visit the <A HREF=\"http://www.cardinalpath.com/training/google-adwords/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">AdWords Training</A> or <A HREF=\"http://www.cardinalpath.com/training/google-analytics/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Analytics Training</A> pages.</P>\n<P>The training facility is right downtown and is walking distance from some of Denver’s major attractions, including the Denver Broncos Football Stadium and the Museum of Nature &amp; Science. Easy access to public transportation and hotels.</P>\n<P>Discounted hotels: <A HREF=\"https://www.mclabs.com/room-rentals/microtek-denver/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.mclabs.com/room-rentals/microtek-denver/</A></P>\n<P>Directions and parking: <A HREF=\"https://www.mclabs.com/room-rentals/microtek-denver/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.mclabs.com/room-rentals/microtek-denver/</A></P>"
+      },
+      "id": "37075032420",
+      "url": "https://www.eventbrite.ca/e/google-tag-manager-fundamentals-and-implementation-denver-tickets-37075032420?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-09-22T09:00:00",
+        "utc": "2017-09-22T15:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-09-22T16:00:00",
+        "utc": "2017-09-22T22:00:00Z"
+      },
+      "created": "2017-08-16T20:00:44Z",
+      "changed": "2017-09-01T18:56:39Z",
+      "capacity": 16,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_CA",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": null,
+      "organizer_id": "13555758696",
+      "venue_id": "20973094",
+      "category_id": "101",
+      "subcategory_id": null,
+      "format_id": "9",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/37075032420/",
+      "logo": null,
+      "venue": {
+        "address": {
+          "address_1": "999 18th Street",
+          "address_2": "South Tower, Suite 300",
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80202",
+          "country": "US",
+          "latitude": "39.7495213",
+          "longitude": "-104.99136880000003",
+          "localized_address_display": "999 18th Street South Tower, Suite 300, Denver, CO 80202",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "999 18th Street",
+            "South Tower, Suite 300",
+            "Denver, CO 80202"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/20973094/",
+        "id": "20973094",
+        "name": "Denver Mircrotek",
+        "latitude": "39.7495213",
+        "longitude": "-104.99136880000003"
+      }
+    },
+    {
+      "name": {
+        "text": "Google AdWords: Reporting and Optimization Denver",
+        "html": "Google AdWords: Reporting and Optimization Denver"
+      },
+      "description": {
+        "text": "Building on the foundation of our AdWords Fundamentals course, this training will expand on the basics to show you how to make the best use of the tools, reports, and features within AdWords, in order to put power behind your campaigns. We’ll dig into reporting, diagnostic and campaign expansion tools, and paid search optimization techniques. With a focus on budget, keywords, ad copy and landing pages, you will learn advanced SEM account management skills that will allow you to run highly effective AdWords campaigns.\nIn order to solidify this knowledge, we work live from the interface using real business account data. We also show you how to use AdWords Editor and bulk uploads to save time when optimizing your accounts. \nRamp up your skills this fall and take control of your marketing campaigns and budgets by becoming an AdWords Ninja! Expert Google AdWords training in downtown Denver. To learn more about our Google AdWords courses and see the agenda and pre-requisites please visit the AdWords Training or Analytics Training pages.\nThe training facility is right downtown and is walking distance from some of Denver’s major attractions, including the Denver Broncos Football Stadium and the Museum of Nature & Science. Easy access to public transportation and hotels.\nDiscounted hotels: https://www.mclabs.com/room-rentals/microtek-denver/\nDirections and parking: https://www.mclabs.com/room-rentals/microtek-denver/",
+        "html": "<P><SPAN CLASS=\"tx\">Building on the foundation of our AdWords Fundamentals course, this training will </SPAN><SPAN CLASS=\"tx\">expand on the basics to show you how to make the best use of the tools, reports, and </SPAN><SPAN CLASS=\"tx\">features within AdWords, in order to put power behind your campaigns. We’ll dig </SPAN><SPAN CLASS=\"tx\">into reporting, diagnostic and campaign expansion tools, and paid search </SPAN><SPAN CLASS=\"tx\">optimization techniques. With a focus on budget, keywords, ad copy and landing </SPAN><SPAN CLASS=\"tx\">pages, you will learn advanced SEM account management skills that will allow you </SPAN><SPAN CLASS=\"tx\">to run highly effective AdWords campaigns.</SPAN></P>\n<P><SPAN CLASS=\"tx\">In order to solidify this knowledge, we work live from the interface using real </SPAN><SPAN CLASS=\"tx\">business account data. We also show you how to use AdWords Editor and bulk </SPAN><SPAN CLASS=\"tx\">uploads to save time when optimizing your accounts. </SPAN></P>\n<P><SPAN>Ramp up your skills this fall and take control of your marketing campaigns and budgets by becoming an AdWords Ninja! Expert Google AdWords training in downtown Denver. </SPAN>To learn more about our Google AdWords courses and see the agenda and <SPAN>pre-requisites</SPAN> please visit the <A HREF=\"http://www.cardinalpath.com/training/google-adwords/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">AdWords Training</A> or <A HREF=\"http://www.cardinalpath.com/training/google-analytics/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Analytics Training</A> pages.</P>\n<P>The training facility is right downtown and is walking distance from some of Denver’s major attractions, including the Denver Broncos Football Stadium and the Museum of Nature &amp; Science. Easy access to public transportation and hotels.</P>\n<P>Discounted hotels: <A HREF=\"https://www.mclabs.com/room-rentals/microtek-denver/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.mclabs.com/room-rentals/microtek-denver/</A></P>\n<P>Directions and parking: <A HREF=\"https://www.mclabs.com/room-rentals/microtek-denver/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.mclabs.com/room-rentals/microtek-denver/</A></P>"
+      },
+      "id": "37074324302",
+      "url": "https://www.eventbrite.ca/e/google-adwords-reporting-and-optimization-denver-tickets-37074324302?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-09-19T09:00:00",
+        "utc": "2017-09-19T15:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-09-19T16:00:00",
+        "utc": "2017-09-19T22:00:00Z"
+      },
+      "created": "2017-08-16T19:34:27Z",
+      "changed": "2017-09-01T18:55:59Z",
+      "capacity": 16,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_CA",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": null,
+      "organizer_id": "13555758696",
+      "venue_id": "20973008",
+      "category_id": "101",
+      "subcategory_id": null,
+      "format_id": "9",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/37074324302/",
+      "logo": null,
+      "venue": {
+        "address": {
+          "address_1": "999 18th Street",
+          "address_2": "Suite 300",
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80202",
+          "country": "US",
+          "latitude": "39.749121",
+          "longitude": "-104.99116549999997",
+          "localized_address_display": "999 18th Street Suite 300, Denver, CO 80202",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "999 18th Street",
+            "Suite 300",
+            "Denver, CO 80202"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/20973008/",
+        "id": "20973008",
+        "name": "Denver Microtek",
+        "latitude": "39.749121",
+        "longitude": "-104.99116549999997"
+      }
+    },
+    {
+      "name": {
+        "text": "Google AdWords: Fundamentals Denver",
+        "html": "Google AdWords: Fundamentals Denver"
+      },
+      "description": {
+        "text": "This training is designed for those who are just getting started with Search Engine Marketing (SEM) and Google AdWords, or have staff who are new to AdWords. Our hands-on Google AdWords course focuses on how Pay-per-Click (PPC) works, how to create and structure your company’s account, and how to create a positive ROI paid search campaign from start to finish. We use real business examples and live accounts to demonstrate the foundations of running a successful AdWords campaign. Please ensure you have administrative access to an AdWords account. To set up an AdWords account, go to: AdWords.\nRamp up your skills this fall and take control of your marketing campaigns and budgets by becoming an AdWords Ninja! Expert Google AdWords training in downtown Denver. To learn more about our Google AdWords courses and see the agenda and pre-requisites please visit the AdWords Training or Analytics Training pages.\nThe training facility is right downtown and is walking distance from some of Denver’s major attractions, including the Denver Broncos Football Stadium and the Museum of Nature & Science. Easy access to public transportation and hotels.\nDiscounted hotels: https://www.mclabs.com/room-rentals/microtek-denver/\nDirections and parking: https://www.mclabs.com/room-rentals/microtek-denver/",
+        "html": "<P>This training is designed for those who are just getting started with Search Engine Marketing (SEM) and Google AdWords, or have staff who are new to AdWords. Our hands-on Google AdWords course focuses on how Pay-per-Click (PPC) works, how to create and structure your company’s account, and how to create a positive ROI paid search campaign from start to finish. We use real business examples and live accounts to demonstrate the foundations of running a successful AdWords campaign. Please ensure you have administrative access to an AdWords account. To set up an AdWords account, go to: <A HREF=\"https://adwords.google.com/home\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">AdWords</A>.</P>\n<P><SPAN>Ramp up your skills this fall and take control of your marketing campaigns and budgets by becoming an AdWords Ninja! Expert Google AdWords training in downtown Denver. </SPAN>To learn more about our Google AdWords courses and see the agenda and pre-requisites please visit the <A HREF=\"http://www.cardinalpath.com/training/google-adwords/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">AdWords Training</A> or <A HREF=\"http://www.cardinalpath.com/training/google-analytics/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Analytics Training</A> pages.</P>\n<P>The training facility is right downtown and is walking distance from some of Denver’s major attractions, including the Denver Broncos Football Stadium and the Museum of Nature &amp; Science. Easy access to public transportation and hotels.</P>\n<P>Discounted hotels: <A HREF=\"https://www.mclabs.com/room-rentals/microtek-denver/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.mclabs.com/room-rentals/microtek-denver/</A></P>\n<P>Directions and parking: <A HREF=\"https://www.mclabs.com/room-rentals/microtek-denver/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.mclabs.com/room-rentals/microtek-denver/</A></P>"
+      },
+      "id": "36225170460",
+      "url": "https://www.eventbrite.ca/e/google-adwords-fundamentals-denver-tickets-36225170460?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-09-18T09:00:00",
+        "utc": "2017-09-18T15:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-09-18T16:00:00",
+        "utc": "2017-09-18T22:00:00Z"
+      },
+      "created": "2017-07-14T14:06:46Z",
+      "changed": "2017-09-01T18:49:35Z",
+      "capacity": 16,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_CA",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": null,
+      "organizer_id": "13555758696",
+      "venue_id": "20973008",
+      "category_id": "101",
+      "subcategory_id": null,
+      "format_id": "9",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/36225170460/",
+      "logo": null,
+      "venue": {
+        "address": {
+          "address_1": "999 18th Street",
+          "address_2": "Suite 300",
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80202",
+          "country": "US",
+          "latitude": "39.749121",
+          "longitude": "-104.99116549999997",
+          "localized_address_display": "999 18th Street Suite 300, Denver, CO 80202",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "999 18th Street",
+            "Suite 300",
+            "Denver, CO 80202"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/20973008/",
+        "id": "20973008",
+        "name": "Denver Microtek",
+        "latitude": "39.749121",
+        "longitude": "-104.99116549999997"
+      }
+    },
+    {
+      "name": {
+        "text": "The Denver Post Photography Workshop in Partnership with Mike's Camera",
+        "html": "The Denver Post Photography Workshop in Partnership with Mike&#39;s Camera"
+      },
+      "description": {
+        "text": "The Denver Post and Mike's Camera is excited to announce The Denver Post Photography Workshop Series. The workshop is an opportunity for photographers to gain valuable experience learning from and working alongside prize-winning Denver Post Photojournalists.\nIn the fall workshop, you'll have an opportunity to gain insight into the best techniques and equipment to improve your abilities as a photographer. You'll receive editing and coaching from Pulitzer Prize winning Denver Post photographers and have an opportunity to have your work published in The Denver Post.\nThe workshop will run from Saturday, October 7 through Sunday, October 8. The first day of the workshop will be filled with lectures and you will be assigned to a Denver Post photojournalist or photo editor for coaching and a Q and A session. On the second day, you'll have the opportunity to actually go into the field and produce photography. At the end of the workshop, awards will be presented for the best work and you'll have the opportunity to have your work published in The Denver Post.\nNOTE: This workshop is limited to 50 participants. The first 15 registrants receive a $50 discount off tuition.\n\n\nDenver Post Photography Workshop Series Schedule\nSaturday, October 7, 2017, 9 a.m.\nHelen Richardson - Bringing energy to every story, 9:30-10:30\nHelen will speak about her work here at The Denver Post and how to make the most from each story. Helen always approaches her work with energy and passion. She has covered everything from devastating fires and floods to a touching video story on the rehabilitation of an otter. You'll learn about the best ways to gain access to a story and the best ways to compose and layer your images.\nBreak, 10:30-11\nRJ Sangosti - Finding a different way of seeing, 11-12\nRJ always approaches every story with the goal of finding new ways of seeing. Each and every day, he surprises readers with a new approach to photography. Through composition, layering and context, he offers a refreshing view of the world around us. You’ll learn to see in new ways.\nLunch, 12-2\nJohn Leyba - Finding the peak moment , 2-3\nJohn Leyba has a gift for always capturing the most important moment in sports photography. He’s covered all the professional teams, including many years covering The Denver Broncos. He’s covered Super Bowls and Olympics. You’ll learn to capture those peak moments.\nPhoto Discussions - We will break into smaller groups for discussions 3-6\nParticipants will break up into smaller groups for group discussions and question and answer sessions. This is a time when you get to ask our photographers and photo editors questions and get a better sense of your assignment for the evening and next day. Critiques and photo reviews will be offered. Bring samples of your work and think about what you’d like to improve upon as a photographer.\nSunday, October 8, 2017, 9 a.m.\nThe Assignment, 9-12\nWe will gather again as a group in the auditorium to discuss the day. In the morning you will have an opportunity to go into the city and take photographs, looking for opportunities that speak to what you like to do as a photographer.\nLunch, 12-1\nThe Edit, 1-3:30\nAfter spending the morning in the city finding your photography subjects, you’ll have the opportunity to be edited by your Denver Post photo coach. You’ll have the chance to talk about your morning and the images you feel are your best.\nBreak, 3:30-4:30\nPresentations and Awards, 4:30-6\nPhotographers and editors will present the work all of you did and present first, second and third place awards.\nFAQs\nWhat should I bring?\nBring your digital camera and lenses. You'll have opportunities to ask questions about your gear and you'll need your camera for the assignment on Sunday. Please bring samples of your work you'd like to receive critique on. These can be images on your laptop, iPad, or on a flash drive we can transfer onto our computers.\nWhat awards will be presented?\nWe will award $500 for first, $250 for second and $150 for third place. This means you have the opportunity to actually make back the money you pay for your workshop. We will also choose photos to appear in The Denver Post and pay you for publication.\nHow can I contact the organizer with any questions?\nYou can email us at klyons@denverpost.com with any questions.\n ",
+        "html": "<P><A HREF=\"http://www.denverpost.com/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><STRONG>The Denver Post</STRONG></A> and <A HREF=\"http://mikescamera.com\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><STRONG>Mike's Camera</STRONG></A> is excited to announce The Denver Post Photography Workshop Series. The workshop is an opportunity for photographers to gain valuable experience learning from and working alongside prize-winning Denver Post Photojournalists.</P>\n<P>In the fall workshop, you'll have an opportunity to gain insight into the best techniques and equipment to improve your abilities as a photographer. You'll receive editing and coaching from Pulitzer Prize winning Denver Post photographers and have an opportunity to have your work published in The Denver Post.</P>\n<P>The workshop will run from Saturday, October 7 through Sunday, October 8. The first day of the workshop will be filled with lectures and you will be assigned to a Denver Post photojournalist or photo editor for coaching and a Q and A session. On the second day, you'll have the opportunity to actually go into the field and produce photography. At the end of the workshop, awards will be presented for the best work and you'll have the opportunity to have your work published in The Denver Post.</P>\n<P><STRONG>NOTE: This workshop is limited to 50 participants. The first 15 registrants receive a $50 discount off tuition.</STRONG></P>\n<P><BR></P>\n<P><BR></P>\n<P><STRONG>Denver Post Photography Workshop Series Schedule</STRONG></P>\n<P><STRONG>Saturday, October 7, 2017, 9 a.m.</STRONG></P>\n<P><STRONG>Helen Richardson - Bringing energy to every story, 9:30-10:30</STRONG></P>\n<P>Helen will speak about her work here at The Denver Post and how to make the most from each story. Helen always approaches her work with energy and passion. She has covered everything from devastating fires and floods to a touching video story on the rehabilitation of an otter. You'll learn about the best ways to gain access to a story and the best ways to compose and layer your images.</P>\n<P><STRONG>Break, 10:30-11</STRONG></P>\n<P><STRONG>RJ Sangosti - Finding a different way of seeing, 11-12</STRONG></P>\n<P>RJ always approaches every story with the goal of finding new ways of seeing. Each and every day, he surprises readers with a new approach to photography. Through composition, layering and context, he offers a refreshing view of the world around us. You’ll learn to see in new ways.</P>\n<P><STRONG>Lunch, 12-2</STRONG></P>\n<P><STRONG>John Leyba - Finding the peak moment , 2-3</STRONG></P>\n<P>John Leyba has a gift for always capturing the most important moment in sports photography. He’s covered all the professional teams, including many years covering The Denver Broncos. He’s covered Super Bowls and Olympics. You’ll learn to capture those peak moments.</P>\n<P><STRONG>Photo Discussions - We will break into smaller groups for discussions 3-6</STRONG></P>\n<P>Participants will break up into smaller groups for group discussions and question and answer sessions. This is a time when you get to ask our photographers and photo editors questions and get a better sense of your assignment for the evening and next day. Critiques and photo reviews will be offered. Bring samples of your work and think about what you’d like to improve upon as a photographer.</P>\n<P><STRONG>Sunday, October 8, 2017, 9 a.m.</STRONG></P>\n<P><STRONG>The Assignment, 9-12</STRONG></P>\n<P>We will gather again as a group in the auditorium to discuss the day. In the morning you will have an opportunity to go into the city and take photographs, looking for opportunities that speak to what you like to do as a photographer.</P>\n<P><STRONG>Lunch, 12-1</STRONG></P>\n<P><STRONG>The Edit, 1-3:30</STRONG></P>\n<P>After spending the morning in the city finding your photography subjects, you’ll have the opportunity to be edited by your Denver Post photo coach. You’ll have the chance to talk about your morning and the images you feel are your best.</P>\n<P><STRONG>Break, 3:30-4:30</STRONG></P>\n<P><STRONG>Presentations and Awards, 4:30-6</STRONG></P>\n<P>Photographers and editors will present the work all of you did and present first, second and third place awards.</P>\n<P><STRONG>FAQs</STRONG></P>\n<P><STRONG>What should I bring?</STRONG></P>\n<P>Bring your digital camera and lenses. You'll have opportunities to ask questions about your gear and you'll need your camera for the assignment on Sunday. Please bring samples of your work you'd like to receive critique on. These can be images on your laptop, iPad, or on a flash drive we can transfer onto our computers.</P>\n<P><STRONG>What awards will be presented?</STRONG></P>\n<P>We will award $500 for first, $250 for second and $150 for third place. This means you have the opportunity to actually make back the money you pay for your workshop. We will also choose photos to appear in The Denver Post and pay you for publication.</P>\n<P><STRONG>How can I contact the organizer with any questions?</STRONG></P>\n<P>You can email us at <A HREF=\"mailto:klyons@denverpost.com\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">klyons@denverpost.com</A> with any questions.</P>\n<P> </P>"
+      },
+      "id": "5633923216",
+      "url": "https://www.eventbrite.com/e/the-denver-post-photography-workshop-in-partnership-with-mikes-camera-tickets-5633923216?aff=ebapi",
+      "vanity_url": "https://denverpostphotoworkshop.eventbrite.com",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-10-07T09:00:00",
+        "utc": "2017-10-07T15:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-10-08T18:00:00",
+        "utc": "2017-10-09T00:00:00Z"
+      },
+      "created": "2014-01-20T18:01:39Z",
+      "changed": "2017-09-18T16:13:59Z",
+      "capacity": 50,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "35065921",
+      "organizer_id": "3082163166",
+      "venue_id": "20539213",
+      "category_id": "105",
+      "subcategory_id": "5008",
+      "format_id": "2",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/5633923216/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 244
+          },
+          "width": 2000,
+          "height": 1000
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F35065921%2F50074929894%2F1%2Foriginal.jpg?s=5421ffca057ae9804851794687f590dd",
+          "width": 2000,
+          "height": 1331
+        },
+        "id": "35065921",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F35065921%2F50074929894%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C244%2C2000%2C1000&s=019fbf0afdab2f31389ee1ff3d3502cc",
+        "aspect_ratio": "2",
+        "edge_color": "#9f6058",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "101 W Colfax Ave",
+          "address_2": null,
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80202",
+          "country": "US",
+          "latitude": "39.740854",
+          "longitude": "-104.988134",
+          "localized_address_display": "101 W Colfax Ave, Denver, CO 80202",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "101 W Colfax Ave",
+            "Denver, CO 80202"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/20539213/",
+        "id": "20539213",
+        "name": "Denver Post Auditorium",
+        "latitude": "39.740854",
+        "longitude": "-104.988134"
+      }
+    },
+    {
+      "name": {
+        "text": "Bronco Skyline, Fri. Oct. 13th, 6pm, $35",
+        "html": "Bronco Skyline, Fri. Oct. 13th, 6pm, $35"
+      },
+      "description": {
+        "text": "At Sipping n’ Painting you will have a blast relaxing, creating and tapping into the right side of your brain while sipping on the beverage of your choice from our bar. No experience necessary! We will walk you through the featured painting with step-by-step instruction. You will leave with your own unique canvas art creation and memories to share. Ample parking is available behind our studio in a few designated spots, on the street, or diagonally across the street at the Regis University parking lot for a small fee of $3.00. We look forward to sipping n’ painting with you soon!",
+        "html": "<P><SPAN>At Sipping n’ Painting you will have a blast relaxing, creating and tapping into the right side of your brain while sipping on the beverage of your choice from our bar. No experience necessary! We will walk you through the featured painting with step-by-step instruction. You will leave with your own unique canvas art creation and memories to share. Ample parking is available behind our studio in a few designated spots, on the street, or diagonally across the street at the Regis University parking lot for a small fee of $3.00. We look forward to sipping n’ painting with you soon!</SPAN></P>"
+      },
+      "id": "35989426343",
+      "url": "https://www.eventbrite.com/e/bronco-skyline-fri-oct-13th-6pm-35-tickets-35989426343?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-10-13T18:00:00",
+        "utc": "2017-10-14T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-10-13T20:00:00",
+        "utc": "2017-10-14T02:00:00Z"
+      },
+      "created": "2017-07-06T23:44:22Z",
+      "changed": "2017-07-06T23:44:55Z",
+      "capacity": 40,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "33020828",
+      "organizer_id": "384678028",
+      "venue_id": "20159219",
+      "category_id": "110",
+      "subcategory_id": null,
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/35989426343/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 0
+          },
+          "width": 1000,
+          "height": 500
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F33020828%2F3233858653%2F1%2Foriginal.jpg?s=b9ab5104de0ec26a4459354123676949",
+          "width": 1000,
+          "height": 500
+        },
+        "id": "33020828",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F33020828%2F3233858653%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C1000%2C500&s=5ec4100a3722d0fa45b49f06b5c30b74",
+        "aspect_ratio": "2",
+        "edge_color": "#a89f9c",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "4995 Lowell Blvd. ",
+          "address_2": null,
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80211",
+          "country": "US",
+          "latitude": "39.7873177",
+          "longitude": "-105.03476920000003",
+          "localized_address_display": "4995 Lowell Blvd. , Denver, CO 80211",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "4995 Lowell Blvd.",
+            "Denver, CO 80211"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/20159219/",
+        "id": "20159219",
+        "name": "Sipping n Painting",
+        "latitude": "39.7873177",
+        "longitude": "-105.03476920000003"
+      }
+    },
+    {
+      "name": {
+        "text": "Bronco Skyline, Sat. Nov. 18th, 4pm, $35",
+        "html": "Bronco Skyline, Sat. Nov. 18th, 4pm, $35"
+      },
+      "description": {
+        "text": "At Sipping n’ Painting you will have a blast relaxing, creating and tapping into the right side of your brain while sipping on the beverage of your choice from our bar. No experience necessary! We will walk you through the featured painting with step-by-step instruction. You will leave with your own unique canvas art creation and memories to share. Ample parking is available behind our studio in a few designated spots, on the street, or diagonally across the street at the Regis University parking lot for a small fee of $3.00. We look forward to sipping n’ painting with you soon!",
+        "html": "<P><SPAN>At Sipping n’ Painting you will have a blast relaxing, creating and tapping into the right side of your brain while sipping on the beverage of your choice from our bar. No experience necessary! We will walk you through the featured painting with step-by-step instruction. You will leave with your own unique canvas art creation and memories to share. Ample parking is available behind our studio in a few designated spots, on the street, or diagonally across the street at the Regis University parking lot for a small fee of $3.00. We look forward to sipping n’ painting with you soon!</SPAN></P>"
+      },
+      "id": "37435107414",
+      "url": "https://www.eventbrite.com/e/bronco-skyline-sat-nov-18th-4pm-35-tickets-37435107414?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-11-18T16:00:00",
+        "utc": "2017-11-18T23:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-11-18T18:00:00",
+        "utc": "2017-11-19T01:00:00Z"
+      },
+      "created": "2017-08-29T21:16:17Z",
+      "changed": "2017-08-29T21:16:58Z",
+      "capacity": 40,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "34748282",
+      "organizer_id": "384678028",
+      "venue_id": "20159219",
+      "category_id": "110",
+      "subcategory_id": null,
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/37435107414/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 0
+          },
+          "width": 1000,
+          "height": 500
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F34748282%2F3233858653%2F1%2Foriginal.jpg?s=8b953ece987725d038e3ddae9addeb77",
+          "width": 1000,
+          "height": 500
+        },
+        "id": "34748282",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F34748282%2F3233858653%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C1000%2C500&s=516b108b182a53f3fe3d5677cd2f6072",
+        "aspect_ratio": "2",
+        "edge_color": "#a89f9c",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "4995 Lowell Blvd. ",
+          "address_2": null,
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80211",
+          "country": "US",
+          "latitude": "39.7873177",
+          "longitude": "-105.03476920000003",
+          "localized_address_display": "4995 Lowell Blvd. , Denver, CO 80211",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "4995 Lowell Blvd.",
+            "Denver, CO 80211"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/20159219/",
+        "id": "20159219",
+        "name": "Sipping n Painting",
+        "latitude": "39.7873177",
+        "longitude": "-105.03476920000003"
+      }
+    },
+    {
+      "name": {
+        "text": "Bronco Skyline, Sun. Nov. 5th, 5pm, $25",
+        "html": "Bronco Skyline, Sun. Nov. 5th, 5pm, $25"
+      },
+      "description": {
+        "text": "At Sipping n’ Painting you will have a blast relaxing, creating and tapping into the right side of your brain while sipping on the beverage of your choice from our bar. No experience necessary! We will walk you through the featured painting with step-by-step instruction. You will leave with your own unique canvas art creation and memories to share. Ample parking is available behind our studio in a few designated spots, on the street, or diagonally across the street at the Regis University parking lot for a small fee of $3.00. We look forward to sipping n’ painting with you soon!",
+        "html": "<P><SPAN>At Sipping n’ Painting you will have a blast relaxing, creating and tapping into the right side of your brain while sipping on the beverage of your choice from our bar. No experience necessary! We will walk you through the featured painting with step-by-step instruction. You will leave with your own unique canvas art creation and memories to share. Ample parking is available behind our studio in a few designated spots, on the street, or diagonally across the street at the Regis University parking lot for a small fee of $3.00. We look forward to sipping n’ painting with you soon!</SPAN></P>"
+      },
+      "id": "37435289960",
+      "url": "https://www.eventbrite.com/e/bronco-skyline-sun-nov-5th-5pm-25-tickets-37435289960?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-11-05T17:00:00",
+        "utc": "2017-11-06T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-11-05T19:00:00",
+        "utc": "2017-11-06T02:00:00Z"
+      },
+      "created": "2017-08-29T21:25:17Z",
+      "changed": "2017-08-29T21:26:00Z",
+      "capacity": 40,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "34748756",
+      "organizer_id": "384678028",
+      "venue_id": "20159219",
+      "category_id": "110",
+      "subcategory_id": null,
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/37435289960/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 0
+          },
+          "width": 1000,
+          "height": 500
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F34748756%2F3233858653%2F1%2Foriginal.jpg?s=1e7e7751d8dd1390a40a35ead4313b31",
+          "width": 1000,
+          "height": 500
+        },
+        "id": "34748756",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F34748756%2F3233858653%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C1000%2C500&s=8450ddaedb3bdc5fa90c4d0f61ad9f8d",
+        "aspect_ratio": "2",
+        "edge_color": "#a89f9c",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "4995 Lowell Blvd. ",
+          "address_2": null,
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80211",
+          "country": "US",
+          "latitude": "39.7873177",
+          "longitude": "-105.03476920000003",
+          "localized_address_display": "4995 Lowell Blvd. , Denver, CO 80211",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "4995 Lowell Blvd.",
+            "Denver, CO 80211"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/20159219/",
+        "id": "20159219",
+        "name": "Sipping n Painting",
+        "latitude": "39.7873177",
+        "longitude": "-105.03476920000003"
+      }
+    },
+    {
+      "name": {
+        "text": "Movie Night \"Keep a Light in Your Window\"",
+        "html": "Movie Night &#34;Keep a Light in Your Window&#34;"
+      },
+      "description": {
+        "text": "Bruce Randolph opened Daddy Bruce's Bar-B-Q in 1963, at the age of 63, on the corner of Gilpin Street and East 34th Avenue.  For many years he donated his own time and money to serving Thanksgiving dinners.  He later took in donations and many local celebrities --including members of the Denver Broncos, politicians, police department, and clergy -- helped Daddy Bruce and his volunteers feed tens of thousands of Denver families in need, and in 1987, a section of 34th avenue was renamed \"Bruce Randolph Avenue\", in his honor.  Daddy Bruce passed away in 1994 at the age of 94.  In 2002 a new school, grades K6- 12 was named in his honor.  Bruce Randolph School has a gallery in the Daddy Bruce's Bar-B-Q Cafetorium as a tribute to the school's name sake.\nThe film \"Keep a Light in Your Window\"is the official Daddy Bruce documentary, chronicling and commemorating his life and works.  The film is being shown in venues throughout Colorado and other states prior to the holiday season.   For more information, plese visit: www.daddybrucedocumentary.com      \n \nFAQs\n \nHow can I contact the organizer with any questions?\nReverend Ronald Wooding D.Min.\nrwooding1@yahoo.com\n ",
+        "html": "<P>Bruce Randolph opened Daddy Bruce's Bar-B-Q in 1963, at the age of 63, on the corner of Gilpin Street and East 34th Avenue.  For many years he donated his own time and money to serving Thanksgiving dinners.  He later took in donations and many local celebrities --including members of the Denver Broncos, politicians, police department, and clergy -- helped Daddy Bruce and his volunteers feed tens of thousands of Denver families in need, and in 1987, a section of 34th avenue was renamed \"Bruce Randolph Avenue\", in his honor.  Daddy Bruce passed away in 1994 at the age of 94.  In 2002 a new school, grades K6- 12 was named in his honor.  Bruce Randolph School has a gallery in the Daddy Bruce's Bar-B-Q Cafetorium as a tribute to the school's name sake.</P>\n<P>The film \"Keep a Light in Your Window\"is the official Daddy Bruce documentary, chronicling and commemorating his life and works.  The film is being shown in venues throughout Colorado and other states prior to the holiday season.   For more information, plese visit: www.daddybrucedocumentary.com      </P>\n<P> </P>\n<P><STRONG>FAQs</STRONG></P>\n<P> </P>\n<P><STRONG>How can I contact the organizer with any questions?</STRONG></P>\n<P>Reverend Ronald Wooding D.Min.</P>\n<P>rwooding1@yahoo.com</P>\n<P> </P>"
+      },
+      "id": "37898956800",
+      "url": "https://www.eventbrite.com/e/movie-night-keep-a-light-in-your-window-tickets-37898956800?aff=ebapi",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2017-09-22T18:30:00",
+        "utc": "2017-09-23T00:30:00Z"
+      },
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2017-09-22T20:30:00",
+        "utc": "2017-09-23T02:30:00Z"
+      },
+      "created": "2017-09-14T01:39:06Z",
+      "changed": "2017-09-14T03:44:45Z",
+      "capacity": 200,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "35373943",
+      "organizer_id": "12442863583",
+      "venue_id": "21144978",
+      "category_id": "113",
+      "subcategory_id": null,
+      "format_id": "7",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/37898956800/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 45
+          },
+          "width": 432,
+          "height": 216
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F35373943%2F133795447730%2F1%2Foriginal.jpg?s=aa1f040345a0cb85884a646ac4be9f1b",
+          "width": 620,
+          "height": 337
+        },
+        "id": "35373943",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F35373943%2F133795447730%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C45%2C432%2C216&s=4474521b3712053a0026b9cc1bbc65d7",
+        "aspect_ratio": "2",
+        "edge_color": "#696969",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "3401 Eudora Street",
+          "address_2": null,
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80207",
+          "country": "US",
+          "latitude": "39.7646443",
+          "longitude": "-104.93121159999998",
+          "localized_address_display": "3401 Eudora Street, Denver, CO 80207",
+          "localized_area_display": "Denver, CO",
+          "localized_multi_line_address_display": [
+            "3401 Eudora Street",
+            "Denver, CO 80207"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/21144978/",
+        "id": "21144978",
+        "name": "Dahlia Campus for Health and Well-Being - Mental Health Center of Denver",
+        "latitude": "39.7646443",
+        "longitude": "-104.93121159999998"
+      }
+    }
+  ],
+  "location": {
+    "latitude": "39.752422",
+    "within": "16.0934400061",
+    "longitude": "-105.027464"
+  }
+}

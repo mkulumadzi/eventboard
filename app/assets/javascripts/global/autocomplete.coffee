@@ -1,6 +1,5 @@
 @initAutocomplete = ->
-  countryRestrict = {'country': 'us'}
-  @autocomplete = new google.maps.places.Autocomplete $("#autocomplete").get(0), { types: ['(cities)'], componentRestrictions: countryRestrict }
+  @autocomplete = new google.maps.places.Autocomplete $("#autocomplete").get(0), { types: ['(cities)'] }
   autocomplete.addListener 'place_changed', placeSelected
 
 @placeSelected = ->
