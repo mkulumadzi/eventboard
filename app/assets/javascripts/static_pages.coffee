@@ -1,2 +1,3 @@
 $ ->
   initAutocomplete()
+  getCurrentLocation()

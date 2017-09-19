@@ -10,7 +10,8 @@ RSpec.configure do |config|
   config.around(:each) do |example|
     ClimateControl.modify(
       MEETUP_API_TOKEN: 'abc',
-      EVENTBRITE_API_TOKEN: 'def'
+      EVENTBRITE_API_TOKEN: 'def',
+      GOOGLE_API_TOKEN: 'ghi'
     ) do
       example.run
     end

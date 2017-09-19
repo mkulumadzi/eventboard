@@ -18,7 +18,7 @@ icons = {}
 map = null
 countryRestrict = {'country': 'us'}
 autocomplete = null
-mapBounds = null
+mapBounds = new google.maps.LatLngBounds
 selectedMarker = null
 markers = []
 iconBase = 'https://maps.google.com/mapfiles/kml/';
@@ -27,24 +27,6 @@ iconBase = 'https://maps.google.com/mapfiles/kml/';
 
 initMap = ->
   map = new google.maps.Map $('#map').get(0)
-  urlParams = new URLSearchParams(window.location.search)
-  fBLat = parseFloat(urlParams.get('f_b_lat'))
-  fFLat = parseFloat(urlParams.get('f_f_lat'))
-  bBLng = parseFloat(urlParams.get('b_b_lng'))
-  bFLng = parseFloat(urlParams.get('b_f_lng'))
-
-  boundA = new google.maps.LatLng(fBLat, bBLng)
-  boundB = new google.maps.LatLng(fFLat, bFLng)
-
-  currentBounds = new google.maps.LatLngBounds(boundA, boundB)
-
-  mapBounds.extend(boundA)
-  mapBounds.extend(boundB)
-
-  lng = parseFloat(urlParams.get('lng'))
-  lat_field = $('#lat')
-
-  map.fitBounds mapBounds
 
 addMarkers = ->
   mapMarkerStore = $('#mapMarkerStore').get(0)
@@ -53,20 +35,21 @@ addMarkers = ->
   for i in [0...events.length]
     e = events[i];
     if e.venue
-      markerParams = {
-        position: { lat: e.venue.latitude, lng: e.venue.longitude },
-        map: map,
-        title: e.name,
-        icon: icons.default.icon,
-        json: e
-      }
+      if e.venue.latitude > 0
+        markerParams = {
+          position: { lat: e.venue.latitude, lng: e.venue.longitude },
+          map: map,
+          title: e.name,
+          icon: icons.default.icon,
+          json: e
+        }
 
-      marker = new google.maps.Marker markerParams
+        marker = new google.maps.Marker markerParams
+        markers.push(marker)
+        mapBounds.extend(marker.getPosition())
 
-      markers.push(marker)
-
-      marker.addListener 'click', ->
-        selectMarker(this)
+        marker.addListener 'click', ->
+          selectMarker(this)
 
   selectMarker markers[0]
 
@@ -81,14 +64,19 @@ selectMarker = (marker) ->
   map.panTo(marker.getPosition())
   selectedMarker = marker
 
+
 # Runs when the DOM is ready.
 $ ->
+
+  urlParams = new URLSearchParams(window.location.search)
+  location = urlParams.get('location').split(",")[0]
+  $("#autocomplete").get(0).value = location
+
   $('#searchForm').toggle()
   $('#mapView').toggle()
   $('#showListView').toggle()
 
   # Initialize map variables and icons
-  mapBounds = new google.maps.LatLngBounds()
   selectedMarker = new google.maps.Marker()
 
   iconBase = 'https://maps.google.com/mapfiles/kml/';

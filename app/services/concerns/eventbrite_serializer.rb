@@ -9,8 +9,8 @@ module EventbriteSerializer
   def serialize_event( event )
     event['name'] = event['name']['text']
     event['description'] = event['description']['html']
-    event['venue']['latitude'] = event['venue']['latitude'].to_f
-    event['venue']['longitude'] = event['venue']['longitude'].to_f
+    event['venue']['latitude'] = event['venue']['latitude'].to_f if event['venue']
+    event['venue']['longitude'] = event['venue']['longitude'].to_f if event['venue']
     time, date = time_and_date_strings( event )
     event['timevalue'] = timevalue(event).to_i
     event['time'] = time
