@@ -13,6 +13,11 @@ $(document).on "click", ".toggle-results", (event) ->
   google.maps.event.trigger(map,'resize');
   map.fitBounds(mapBounds);
 
+$(document).on "click", "todayButton", (event) ->
+  console.log("Clicked")
+  $('#timeframe').get(0).value = "today"
+
+
 # set up variables
 icons = {}
 map = null

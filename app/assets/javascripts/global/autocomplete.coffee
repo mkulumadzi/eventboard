@@ -26,6 +26,8 @@ handlePlace = (place) ->
   $('#radius').get(0).value = radius
 
 @getCurrentLocation = ->
+  $("#autocomplete").get(0).placeholder = "Loading..."
+
   if navigator.geolocation
     navigator.geolocation.getCurrentPosition (position) ->
       pos = {
@@ -36,10 +38,11 @@ handlePlace = (place) ->
 
       geocoder = new google.maps.Geocoder
       geocoder.geocode location, (results, status) ->
-        if status == 'OK'
-          if results[0]
-            place = results[0]
-            handlePlace place
-            autocompleteTextBox = $("#autocomplete").get(0)
-            address1 = place.formatted_address.split(",")[0]
-            autocompleteTextBox.value = address1
+        if status == 'OK' && results[0]
+          place = results[0]
+          handlePlace place
+          autocompleteTextBox = $("#autocomplete").get(0)
+          address1 = place.formatted_address.split(",")[0]
+          autocompleteTextBox.value = address1
+        else
+          $("#autocomplete").get(0).placeholder = "Your location"

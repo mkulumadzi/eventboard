@@ -101,12 +101,37 @@ describe MeetupClient do
 
     describe 'time params' do
 
-      it 'searches for events in the next 24 hours by default' do
+      # TODO Make this actually only return events today... (currently gets next 24 hours)
+      it 'searches for events today if time=today' do
+        query.merge!(time: "today")
+
         expect(subject).to receive(:get) do |*args|
           expect(args[0]).to include("time=0d,1d")
         end.and_return(load_fixture('meetup/find_events'))
 
         subject.find_events(query)
+      end
+
+      it 'searches for events tomorrow if time=tomorrow' do
+        query.merge!(time: "tomorrow")
+
+        expect(subject).to receive(:get) do |*args|
+          expect(args[0]).to include("time=1d,2d")
+        end.and_return(load_fixture('meetup/find_events'))
+
+        subject.find_events(query)
+      end
+
+      it "searches for events this weekend if time=thisWeekend" do
+        Timecop.freeze("12/12/2017".to_date) do
+          query.merge!(time: "thisWeekend")
+
+          expect(subject).to receive(:get) do |*args|
+            expect(args[0]).to include("time=4d,6d")
+          end.and_return(load_fixture('meetup/find_events'))
+
+          subject.find_events(query)
+        end
       end
 
       it 'searches for events in the next 24 hours if time is blank' do

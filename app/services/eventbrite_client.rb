@@ -65,7 +65,13 @@ class EventbriteClient < ApiClient
   end
 
   def time_params( query )
-    if( query[:time] && !query[:time].blank? )
+    if( query[:time] == "today" )
+      { "start_date.keyword": "today" }
+    elsif( query[:time] == "tomorrow" )
+      { "start_date.keyword": "tomorrow" }
+    elsif( query[:time] == "thisWeekend" )
+      { "start_date.keyword": "this_weekend" }
+    elsif( query[:time] && !query[:time].blank? && query[:time].include?(" - ") )
       range = query[:time].split(" - ")
         .map{ |d| Date.strptime(d, '%m/%d/%Y') }
         .map{ |d| d.strftime("%Y-%m-%dT%H:%M:%S") }

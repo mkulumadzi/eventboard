@@ -2,31 +2,47 @@
   <h5>Find events near you:</h5>
   </br>
 
-  <div class="col-12" id="event-search">
+  <div id="event-search">
     <%= form_tag("/search", method: "get") do |f| %>
+
+      <div class="form-group row">
+        <div class="btn-group col-xl-4 col-lg-6" data-toggle="buttons">
+          <label class="btn btn-toggle active" id="todayButton">
+            <input type="radio" name="options" autocomplete="off" checked> Today
+          </label>
+          <label class="btn btn-toggle" id="tomorrowButton">
+            <input type="radio" name="options" autocomplete="off"> Tomorrow
+          </label>
+          <label class="btn btn-toggle" id="thisWeekendButton">
+            <input type="radio" name="options" autocomplete="off"> This Weekend
+          </label>
+          <label class="btn btn-toggle" id="customDateButton">
+            <input type="radio" name="options" autocomplete="off"> Custom
+          </label>
+        </div>
+        <div class="col-xl-4 col-lg-6" id="customDateFormGroup">
+          <%= text_field_tag :range, "", class: "daterange", type: "text", placeholder: "mm/dd/yyyy - mm/dd/yyyy", id: "daterangepicker" %>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-lg-12">
+          <%= text_field_tag :q, params[:q], class: "form-control", type: "text", placeholder: "Foosball" %>
+          <label for="q">Search term (optional)</label>
+        </div>
+      </div>
+
       <div class="form-group row">
         <div class="col-lg-4">
           <%= text_field_tag :location, "", class: "form-control", type: "search", placeholder: "Your City", id: "autocomplete", required: true%>
           <label for="location">Location</label>
         </div>
-        <div class="col-lg-4">
-          <%= text_field_tag :q, params[:q], class: "form-control", type: "text", placeholder: "Foosball" %>
-          <label for="q">Search term (optional)</label>
-        </div>
-        <div class="col-lg-4">
-          <%= text_field_tag :time, "", class: "daterange", type: "text", placeholder: "mm/dd/yyyy - mm/dd/yyyy", id: "daterangepicker" %>
-          <label for="time">Date range (defaults to today)</label>
-        </div>
-
-        <%= hidden_field_tag :lat, "", class: "form-control", id: "lat"%>
-        <%= hidden_field_tag :lng, "", class: "form-control", id: "lng"%>
-        <%= hidden_field_tag :radius, "", class: "form-control", id: "radius"%>
-
-        <!-- <%= hidden_field_tag :f_b_lat, "", class: "form-control", id: "f-b-lat"%>
-        <%= hidden_field_tag :f_f_lat, "", class: "form-control", id: "f-f-lat"%>
-        <%= hidden_field_tag :b_b_lng, "", class: "form-control", id: "b-b-lng"%>
-        <%= hidden_field_tag :b_f_lng, "", class: "form-control", id: "b-f-lng"%> -->
       </div>
+
+      <%= hidden_field_tag :lat, "", class: "form-control", id: "lat"%>
+      <%= hidden_field_tag :lng, "", class: "form-control", id: "lng"%>
+      <%= hidden_field_tag :radius, "", class: "form-control", id: "radius"%>
+      <%= hidden_field_tag :time, "today", class: "form-control", id: "time"%>
 
       <%= submit_tag "Search", class: "btn btn-primary" %>
 

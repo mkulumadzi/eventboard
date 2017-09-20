@@ -112,6 +112,7 @@ html {
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
+  height: 38px;
 }
 
 .event_banner_background {
@@ -174,4 +175,30 @@ html {
   position: absolute;
   bottom: 10px;
   padding: 10px;
+}
+
+.btn-toggle {
+  font-size: 12px;
+  background: none;
+  color: black;
+  border-radius: 0;
+  border-style: none;
+}
+
+.btn-toggle:hover, .btn-toggle:focus, .btn-toggle:active, .btn-toggle.active, .open > .dropdown-toggle.btn-toggle {
+  outline: none;
+  box-shadow: none;
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+  border-bottom-color: $color-gray;
+}
+
+.btn-toggle:active, .btn-toggle.active {
+  font-weight: bold;
+  color: black;
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+  border-bottom-color: black;
+  outline: none;
+  box-shadow: none;
 }

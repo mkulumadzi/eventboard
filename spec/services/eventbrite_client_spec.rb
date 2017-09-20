@@ -47,6 +47,36 @@ describe EventbriteClient do
         subject.find_events(query)
       end
 
+      it 'searches for events today if time=today' do
+        query.merge!(time: "today")
+
+        expect(subject).to receive(:get) do |*args|
+          expect(args[0]).to include("start_date.keyword=today")
+        end.and_return(load_fixture('eventbrite/find_events'))
+
+        subject.find_events(query)
+      end
+
+      it 'searches for events tomorrow if time=tomorrow' do
+        query.merge!(time: "tomorrow")
+
+        expect(subject).to receive(:get) do |*args|
+          expect(args[0]).to include("start_date.keyword=tomorrow")
+        end.and_return(load_fixture('eventbrite/find_events'))
+
+        subject.find_events(query)
+      end
+
+      it 'searches for events this weekend if time=thisWeekend' do
+        query.merge!(time: "thisWeekend")
+
+        expect(subject).to receive(:get) do |*args|
+          expect(args[0]).to include("start_date.keyword=this_weekend")
+        end.and_return(load_fixture('eventbrite/find_events'))
+
+        subject.find_events(query)
+      end
+
       it 'generates range parameters if a time parameter was passed' do
         query.merge!(time: "09/07/2017 - 09/20/2017")
 

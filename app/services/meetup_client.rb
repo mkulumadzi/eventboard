@@ -104,7 +104,15 @@ class MeetupClient < ApiClient
   end
 
   def time_params( query )
-    if( query[:time] && !query[:time].blank? )
+    if( query[:time] == "today" )
+      { time: "0d,1d" }
+    elsif( query[:time] == "tomorrow" )
+      { time: "1d,2d" }
+    elsif( query[:time] == "thisWeekend" )
+      wd = Date.today.cwday
+      start = 5 - wd # If today is Friday, this value should be 0
+      { time: "#{start}d,#{start+2}d"}
+    elsif( query[:time] && !query[:time].blank? && query[:time].include?(" - ") )
       range = query[:time].split(" - ")
         .map{ |d| Date.strptime(d, '%m/%d/%Y') }
         .map{ |d| d.to_time.to_i * 1000 }.join(",")
