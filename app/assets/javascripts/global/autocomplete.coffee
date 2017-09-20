@@ -29,6 +29,7 @@ handlePlace = (place) ->
   $("#autocomplete").get(0).placeholder = "Loading..."
 
   if navigator.geolocation
+    console.log("We have a navigator")
     navigator.geolocation.getCurrentPosition (position) ->
       pos = {
         lat: position.coords.latitude,
